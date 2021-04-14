@@ -1,6 +1,6 @@
 
 
-const Gyprocwerken = () => {
+const GyprocWerken = () => {
 
     return(
         <div className="home">
@@ -12,4 +12,4 @@ const Gyprocwerken = () => {
     )
 }
 
-export default Gyprocwerken;
+export default GyprocWerken;

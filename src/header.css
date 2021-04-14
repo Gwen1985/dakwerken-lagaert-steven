@@ -14,28 +14,17 @@
     font-size: 2em;
 }
 
-.btn {
+.contact_btn {
     color: #e6e646;
     border: 1px solid #e6e646;
 }
 
-.btn:hover {
+.contact_btn:hover {
     color: #daff00;
     border: 1px solid #daff00;
     box-shadow: 1px 1px #daff00;
 }
 
-.contentTitle{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 4px;
-}
-
-.contentTitle_2{
-    font-size: 32px;
-    font-weight: bold;
-}
 
 @media screen and (max-width: 720px) {
     .title {
