@@ -1,25 +1,25 @@
 import {Link} from "react-router-dom";
-import {useEffect} from "react";
-import gsap from "gsap";
 
+// import {useEffect} from "react";
+// import gsap from "gsap";
 
 import "../Nav.css";
 
 
 const Nav = () => {
 
-    useEffect(() => {
-        const tl = gsap.timeline({duration: 1, delay: 2.3, ease: "slow"});
-
-        tl.fromTo('.hamburger', {opacity: "0%"}, {opacity: "100%"});
-
-        tl.fromTo('.first', {opacity: "0%"}, {opacity: "100%"});
-        tl.fromTo('.second', {opacity: "0%"}, {opacity: "100%"});
-        tl.fromTo('.third', {opacity: "0%"}, {opacity: "100%"});
-        tl.fromTo('.fifth', {opacity: "0%"}, {opacity: "100%"});
-
-        // tl.fromTo('.forth', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"})
-    });
+    // useEffect(() => {
+    //     const tl = gsap.timeline({duration: 0.5, delay: 2, ease: "slow"});
+    //
+    //     tl.fromTo('.hamburger', {opacity: "0%"}, {opacity: "100%", ease:"elastic"});
+    //
+    //     tl.fromTo('.first', {opacity: "0%"}, {opacity: "100%", ease: "slow"});
+    //     tl.fromTo('.second', {opacity: "0%"}, {opacity: "100%", ease: "slow"});
+    //     tl.fromTo('.third', {opacity: "0%"}, {opacity: "100%", ease: "slow"});
+    //     tl.fromTo('.fifth', {opacity: "0%"}, {opacity: "100%", ease: "slow"});
+    //
+    //     // tl.fromTo('.forth', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"})
+    // });
 
     return (
 
