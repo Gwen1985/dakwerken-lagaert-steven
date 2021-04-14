@@ -9,47 +9,90 @@ import "../Nav.css";
 const Nav = () => {
 
     useEffect(() => {
-        const tl = gsap.timeline({duration: 0.5, delay: 0.2, ease: "power2"});
+        const tl = gsap.timeline({duration: 1, delay: 2.3, ease: "slow"});
 
-        tl.fromTo('.first', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"});
-        tl.fromTo('.second', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"});
-        tl.fromTo('.third', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"});
-        tl.fromTo('.forth', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"})
+        tl.fromTo('.hamburger', {opacity: "0%"}, {opacity: "100%"});
+
+        tl.fromTo('.first', {opacity: "0%"}, {opacity: "100%"});
+        tl.fromTo('.second', {opacity: "0%"}, {opacity: "100%"});
+        tl.fromTo('.third', {opacity: "0%"}, {opacity: "100%"});
+        tl.fromTo('.fifth', {opacity: "0%"}, {opacity: "100%"});
+
+        // tl.fromTo('.forth', {opacity: "0%"}, {opacity: "100%", fontSize: "24px"})
     });
 
     return (
 
-            <div className="navbar bg-dark">
+        <nav>
+            <div className="hamburger">
+                <div className="dropdown">
+                    <i className="fas fa-bars"/>
 
+                    <div className="dropdown-content">
+                        <ul className="nav-link pl-3">
+
+                            <li className="nav-link list-unstyled">
+                                <Link to="/" className="link text-white">Home</Link>
+                            </li>
+
+                            <li className="nav-link list-unstyled">
+                                <Link to="/" className="link text-white">
+                                    Diensten
+                                    <span><i className="fas fa-angle-down text-white pl-2"/></span>
+                                </Link>
+                            </li>
+
+                            <li className="nav-link list-unstyled">
+                                <Link to="/realisaties" className="link text-white">Realisaties</Link>
+                            </li>
+
+                            <li className="nav-link list-unstyled">
+                                <Link to="/contact" className="link text-white">Contact</Link>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div className="navbar">
                 <ul className="nav text-white">
-                    <li className="first nav-item list-unstyled">
-                        <Link to="/" className="link nav-link text-white active">Home</Link>
+                    <li className="nav-item list-unstyled">
+                        <Link to="/" className="first link nav-link text-white active">Home</Link>
                     </li>
 
-                    <li className="second nav-item list-unstyled ml-2">
+                    <li className="nav-item list-unstyled ml-2">
                         <div className="dropdown">
-                            <Link className="second dropbtn btn btn-dark text-white">Diensten <i className="fas fa-angle-double-down"/>
+
+                            <Link className="second dropbtn link nav-link text-white">Diensten <i
+                                className="fas fa-angle-down text-white"/>
                             </Link>
+
                             <div className="dropdown-content">
-                                <Link to="/hellende-daken" className="link nav-link">Hellendedaken</Link>
-                                <Link to="/platte-daken" className="link nav-link">Plattedaken</Link>
-                                <Link to="/zink-werken" className="link nav-link">Zinkwerken</Link>
-                                <Link to="/gevel-bekleding" className="link nav-link">Gevelbekleding</Link>
-                                <Link to="/gyproc-werken" className="link nav-link">Gyprocwerken</Link>
+
+                                <Link to="/hellende-daken" className="link nav-link text-white">Hellendedaken</Link>
+                                <Link to="/platte-daken" className="link nav-link text-white">Plattedaken</Link>
+                                <Link to="/zink-werken" className="link nav-link text-white">Zinkwerken</Link>
+                                <Link to="/gevel-bekleding" className="link nav-link text-white">Gevelbekleding</Link>
+                                <Link to="/gyproc-werken" className="link nav-link text-white">Gyprocwerken</Link>
+
                             </div>
+
                         </div>
                     </li>
 
-                    <li className="third nav-item list-unstyled">
-                        <Link to="/realisaties" className="link nav-link text-white">Realisaties</Link>
+                    <li className="nav-item list-unstyled">
+                        <Link to="/realisaties" className="third link nav-link text-white">Realisaties</Link>
                     </li>
 
-                    <li className="forth nav-item list-unstyled">
-                        <Link to="/contact" className="link nav-link text-white">Contact</Link>
+                    <li className="nav-item list-unstyled">
+                        <Link to="/contact" className="fifth link nav-link text-white">Contact</Link>
                     </li>
                 </ul>
-
             </div>
+
+        </nav>
+
 
     )
 }

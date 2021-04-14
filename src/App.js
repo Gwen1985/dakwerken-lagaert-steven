@@ -14,7 +14,7 @@ import Realisaties from "./views/Realisaties";
 import Contact from "./views/Contact";
 
 
-function App() {
+const  App = () => {
 
     return (
 
