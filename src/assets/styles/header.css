@@ -1,0 +1,31 @@
+
+.headerWrapper {
+    background-color: #333333;
+}
+
+.titleWrapper, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title_2 {
+    font-size: 1.5em;
+}
+
+.title_3 {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 720px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .title_2 {
+        font-size: 1em;
+    }
+
+    .title_3 {
+        font-size: 1.5em;
+    }
+
+}

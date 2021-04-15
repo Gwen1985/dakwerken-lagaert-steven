@@ -1,15 +1,19 @@
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 const PlatteDaken = () => {
 
-    return(
-        <div className="home">
+    return (
+        <div className="platteDaken">
 
-            <h2>Diensten : PlatteDaken</h2>
+            <Header/>
+            <Footer/>
 
         </div>
 
     )
 }
+
 
 export default PlatteDaken;

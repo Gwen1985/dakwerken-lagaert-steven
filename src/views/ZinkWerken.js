@@ -1,11 +1,14 @@
+import Footer from "./Footer";
+import Header from "./Header";
 
 
 const ZinkWerken = () => {
 
     return(
-        <div className="home">
+        <div className="zinkWerken">
 
-            <h2>Diensten : ZinkWerken</h2>
+            <Header/>
+            <Footer/>
 
         </div>
 

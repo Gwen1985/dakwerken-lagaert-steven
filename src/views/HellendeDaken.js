@@ -1,15 +1,20 @@
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 const HellendeDaken = () => {
 
-    return(
-        <div className="home">
+    return (
+        <div className="hellendeDaken">
 
-            <h2>Diensten : Hellendedaken</h2>
+            <Header/>
+
+            <Footer/>
 
         </div>
 
     )
 }
+
 
 export default HellendeDaken;

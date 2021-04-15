@@ -1,18 +1,16 @@
-.home {
-    font-family: 'Montserrat', sans-serif;
-}
-.contentTitle, .talentTitle{
+
+.contentTitle, .talentTitle {
     font-size: 1em;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
-.contentTitle_2, .talenTitle_2 {
+.contentTitle_2, .talentTitle_2 {
     font-size: 2em;
-    font-weight: bold;
+
 }
 
-.contentTitle_3{
+.contentTitle_3 {
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -34,33 +32,25 @@
     box-shadow: 3px 3px #414141;
 }
 
-.dakPannen {
-    filter: blur(0.2em) opacity(80%);
+.dakpannen {
+    background-image: url("../images/shutterstock_41.jpg");
 
 }
 
 .contacteer_btn {
-    background-color: #e6e646;
+    background-color: #ffc107;
     color: #414141;
-    border: 1px solid #e6e646;
 }
 
 .contacteer_btn:hover {
-    color: #000000;
-    border: 1px solid #daff00;
+    background-color: #414141;
+    color: #ffc107
 }
 
 .container_2 {
     position: relative;
     text-align: center;
     color: white;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .offerte {
@@ -72,18 +62,35 @@
     text-decoration: underline;
 }
 
+.dienstenWrapper {
+    background-color: #333333;
+}
+
+.logoMidPage {
+    background-color: #333333;
+}
+
 .card {
     background-color: #e6e646;
     border: 1px inset #5a5959;
     border-radius: 12px;
-    width: 500px;
+    width: 450px;
     height: auto;
     opacity: 90%;
     box-shadow: 2px 4px 6px #343434;
 }
 
+.card:hover {
+    background-color: #e6e646;
+    border: 1px inset #5a5959;
+    border-radius: 12px;
+    height: auto;
+    opacity: 90%;
+    box-shadow: 3px 6px 8px #343434;
+}
+
 .dienstCard {
-    color: #e6e646;
+    color: #ffc107;
     border: 1px inset #e6e646;
     border-radius: 12px;
     width: 100%;
@@ -92,10 +99,14 @@
     /*box-shadow: 2px 4px 6px #343434;*/
 }
 
-.dienstCard:hover{
-    background-color: #e6e646;
+.dienstCard:hover {
+    background-color: #ffc107;
     color: #414141;
     box-shadow: 2px 4px 6px #d4d4d4;
+}
+
+.cardIcon {
+    font-size: 1.5em;
 }
 
 .card h2 {
@@ -112,17 +123,21 @@
     font-size: 32px;
 }
 
+.centered_3 {
+    position: absolute;
+    transform: translate(0%, -75%);
+}
 
 
 @media screen and (max-width: 720px) {
-    .contentTitle, .talentTitle, .dienstTitle{
+    .contentTitle, .talentTitle, .dienstTitle {
         font-size: 0.7em;
         font-weight: bold;
         letter-spacing: 4px;
     }
 
-    .contentTitle_2, .talentTitle_2{
-        font-size: 1.2em;
+    .contentTitle_2, .talentTitle_2 {
+        font-size: 1em;
         font-weight: bold;
     }
 
@@ -130,7 +145,7 @@
         font-size: 2em;
     }
 
-    .contentTitle_3{
+    .contentTitle_3 {
         font-size: 2em;
         font-weight: bold;
     }
@@ -151,21 +166,13 @@
         box-shadow: 2px 4px 6px #343434;
     }
 
-    /*.dienstCard {*/
-    /*    color: #e6e646;*/
-    /*    border: 1px inset #e6e646;*/
-    /*    border-radius: 12px;*/
-    /*    width: 100%;*/
-    /*    height: auto;*/
-    /*    opacity: 90%;*/
-    /*    !*box-shadow: 2px 4px 6px #343434;*!*/
-    /*}*/
-
-    /*.dienstCard:hover {*/
-    /*    background-color: #e6e646;*/
-    /*    color: #414141;*/
-    /*    box-shadow: 2px 4px 6px #d4d4d4;*/
-    /*}*/
-
-
+    .card:hover {
+        background-color: #e6e646;
+        border: 1px inset #5a5959;
+        border-radius: 12px;
+        width: 300px;
+        height: auto;
+        opacity: 90%;
+        box-shadow: 3px 6px 8px #343434;
+    }
 }

@@ -1,11 +1,14 @@
+import Footer from "./Footer";
+import Header from "./Header";
 
 
 const GevelBekleding = () => {
 
     return(
-        <div className="home">
+        <div className="gevelBekleding">
 
-            <h2>Diensten : Gevelbekleding</h2>
+            <Header/>
+          <Footer/>
 
         </div>
 

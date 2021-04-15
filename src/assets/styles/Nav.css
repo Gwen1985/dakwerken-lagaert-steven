@@ -1,6 +1,6 @@
 .hamburger {
-    font-size: 1em;
-    color: #e6e646;
+    font-size: 2em;
+    color: #ffc107;
     display: none;
     cursor: pointer;
 }
@@ -14,10 +14,11 @@
 .dropdown-content {
     display: none;
     position: absolute;
+    font-size: 1em;
     background-color: #414141;
     opacity: 90%;
     min-width: 160px;
-    box-shadow: 0px 3px 6px 0px #ffffff;
+    box-shadow: 0px 3px 6px 0px #ffc107;
     z-index: 1;
 }
 
@@ -27,16 +28,16 @@
 
 
 @media screen and (max-width: 720px) {
-    .hamburger{
+    .hamburger {
         display: flex;
-    }
-
-    .hamburger:hover{
-        color: #daff00;
     }
 
     .navbar {
         display: none
+    }
+
+    .dropdown-content {
+        font-size: 0.6em;
     }
 
 }

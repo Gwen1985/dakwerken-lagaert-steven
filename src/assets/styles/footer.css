@@ -1,0 +1,17 @@
+
+.fa-facebook, .fa-instagram {
+    font-size: 3em;
+}
+
+.footer {
+    background-image: url("../images/shutterstock_400753009.jpg");
+}
+
+.footImg {
+    height: 1200px;
+    filter: blur(0.2em);
+}
+
+.footerText {
+    font-size: 0.7em;
+}

@@ -1,14 +1,16 @@
-import Nav from "./Nav";
+
+import Footer from "./Footer";
+import Header from "./Header";
 
 
 const Contact = () => {
 
     return(
-        <div className="home">
+        <div className="contact">
 
-            <Nav/>
+            <Header/>
 
-            <h2>Contact</h2>
+           <Footer/>
 
         </div>
 

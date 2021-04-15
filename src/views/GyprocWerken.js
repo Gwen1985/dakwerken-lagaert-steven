@@ -1,11 +1,14 @@
+import Footer from "./Footer";
+import Header from "./Header";
 
 
 const GyprocWerken = () => {
 
     return(
-        <div className="home">
+        <div className="gyprocWerken">
 
-            <h2>Diensten : GyprocWerken</h2>
+            <Header/>
+            <Footer/>
 
         </div>
 

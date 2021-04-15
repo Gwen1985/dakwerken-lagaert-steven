@@ -39,6 +39,12 @@ const  App = () => {
 
                     <Route path="/contact" exact component={Contact}/>
 
+                    <Route path="/privacy-beleid" exact component={Contact}/>
+
+                    <Route path="/coockie-beleid" exact component={Contact}/>
+
+                    <Route path="/algemene-voorwaarden" exact component={Contact}/>
+
                 </Switch>
             </BrowserRouter>
 
