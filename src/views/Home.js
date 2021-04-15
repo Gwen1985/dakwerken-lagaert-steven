@@ -281,6 +281,33 @@ const Home = () => {
 
                 </div>
 
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className="container text-center">
+                            <h2>Onze gegevens</h2>
+                            <p>Durmestraat 28, 9940 Evergem</p>
+                            <p>0497/21.92.73</p>
+                            <p>info@dakwerken-lagaertsteven.be</p>
+                            <p>BE 0732.478.078</p>
+                            <h2>Onze diensten</h2>
+                            <p>Hellende daken</p>
+                            <p>Platte daken</p>
+                            <p>Zinkwerken</p>
+                            <p>Gevelbekleding</p>
+                            <p>Gyprocwerken</p>
+
+                            <h2>PRIVACY</h2>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-sm-12 text-center border border-secondary">
+                        <h2>FOOTER</h2>
+                    </div>
+                </div>
+
             </div>
         </div>
 
