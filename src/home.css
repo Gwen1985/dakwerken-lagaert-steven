@@ -1,0 +1,171 @@
+.home {
+    font-family: 'Montserrat', sans-serif;
+}
+.contentTitle, .talentTitle{
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.contentTitle_2, .talenTitle_2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.contentTitle_3{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.contentText, .talentText {
+
+    font-size: 1em;
+}
+
+.werkenOpDak {
+    border-radius: 20px;
+    box-shadow: 3px 3px #414141;
+}
+
+.dakRamen {
+    margin-top: -30%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 3px 3px #414141;
+}
+
+.dakPannen {
+    filter: blur(0.2em) opacity(80%);
+
+}
+
+.contacteer_btn {
+    background-color: #e6e646;
+    color: #414141;
+    border: 1px solid #e6e646;
+}
+
+.contacteer_btn:hover {
+    color: #000000;
+    border: 1px solid #daff00;
+}
+
+.container_2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.offerte {
+    color: #414141;
+}
+
+.offerte:hover {
+    color: #414141;
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #e6e646;
+    border: 1px inset #5a5959;
+    border-radius: 12px;
+    width: 500px;
+    height: auto;
+    opacity: 90%;
+    box-shadow: 2px 4px 6px #343434;
+}
+
+.dienstCard {
+    color: #e6e646;
+    border: 1px inset #e6e646;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+    /*box-shadow: 2px 4px 6px #343434;*/
+}
+
+.dienstCard:hover{
+    background-color: #e6e646;
+    color: #414141;
+    box-shadow: 2px 4px 6px #d4d4d4;
+}
+
+.card h2 {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.card i {
+    font-size: 32px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .contentTitle, .talentTitle, .dienstTitle{
+        font-size: 0.7em;
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+
+    .contentTitle_2, .talentTitle_2{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .dienstTitle_2 {
+        font-size: 2em;
+    }
+
+    .contentTitle_3{
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .contentText, .talentText {
+        font-size: 1em;
+        letter-spacing: 3px;
+
+    }
+
+    .card {
+        background-color: #e6e646;
+        border: 1px inset #5a5959;
+        border-radius: 12px;
+        width: 300px;
+        height: auto;
+        opacity: 90%;
+        box-shadow: 2px 4px 6px #343434;
+    }
+
+    /*.dienstCard {*/
+    /*    color: #e6e646;*/
+    /*    border: 1px inset #e6e646;*/
+    /*    border-radius: 12px;*/
+    /*    width: 100%;*/
+    /*    height: auto;*/
+    /*    opacity: 90%;*/
+    /*    !*box-shadow: 2px 4px 6px #343434;*!*/
+    /*}*/
+
+    /*.dienstCard:hover {*/
+    /*    background-color: #e6e646;*/
+    /*    color: #414141;*/
+    /*    box-shadow: 2px 4px 6px #d4d4d4;*/
+    /*}*/
+
+
+}
