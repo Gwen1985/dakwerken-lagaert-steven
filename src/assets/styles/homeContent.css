@@ -6,7 +6,7 @@
 }
 
 .contentTitle_2, .talentTitle_2 {
-    font-size: 2em;
+    font-size: 2.5em;
 
 }
 
@@ -16,7 +16,6 @@
 }
 
 .contentText, .talentText {
-
     font-size: 1em;
 }
 
@@ -55,6 +54,7 @@
 
 .offerte {
     color: #414141;
+    font-size: 1.5em;
 }
 
 .offerte:hover {
@@ -71,17 +71,16 @@
 }
 
 .card {
-    background-color: #e6e646;
-    border: 1px inset #5a5959;
+    background-color: #bbbbbb;
+    border: 1px inset #ffc107;
     border-radius: 12px;
-    width: 450px;
+    width: 100%;
     height: auto;
-    opacity: 90%;
     box-shadow: 2px 4px 6px #343434;
 }
 
 .card:hover {
-    background-color: #e6e646;
+    background-color: #ffc107;
     border: 1px inset #5a5959;
     border-radius: 12px;
     height: auto;
@@ -129,50 +128,12 @@
 }
 
 
-@media screen and (max-width: 720px) {
-    .contentTitle, .talentTitle, .dienstTitle {
-        font-size: 0.7em;
-        font-weight: bold;
-        letter-spacing: 4px;
-    }
-
-    .contentTitle_2, .talentTitle_2 {
-        font-size: 1em;
-        font-weight: bold;
-    }
-
-    .dienstTitle_2 {
-        font-size: 2em;
-    }
-
-    .contentTitle_3 {
-        font-size: 2em;
-        font-weight: bold;
+@media screen and (max-width: 991px) {
+    .imageWrapper {
+        display: none;
     }
 
     .contentText, .talentText {
-        font-size: 1em;
         letter-spacing: 3px;
-
-    }
-
-    .card {
-        background-color: #e6e646;
-        border: 1px inset #5a5959;
-        border-radius: 12px;
-        width: 300px;
-        height: auto;
-        opacity: 90%;
-        box-shadow: 2px 4px 6px #343434;
-    }
-
-    .card:hover {
-        background-color: #e6e646;
-        border: 1px inset #5a5959;
-        border-radius: 12px;
-        width: 300px;
-        height: auto;
-        opacity: 90%;
-        box-shadow: 3px 6px 8px #343434;
     }
 }
