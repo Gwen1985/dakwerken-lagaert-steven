@@ -9,6 +9,7 @@ const Nav = () => {
 
         <nav>
             <div className="hamburger">
+
                 <div className="dropdown">
                     <i className="fas fa-bars"/>
 
