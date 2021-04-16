@@ -123,7 +123,7 @@ const Contact = () => {
 
                                     <li>
 
-                                        <input type="checkbox"  required={true} className=""/>
+                                        <input type="checkbox"  required={true} className="mr-2"/>
                                         Ik ga ermee akkoord dat de ingevoerde informatie gebruikt zal worden om contact
                                         met mij op te nemen.
                                     </li>
