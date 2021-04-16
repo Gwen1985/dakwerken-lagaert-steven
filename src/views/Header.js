@@ -43,13 +43,6 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="col-12 col-sm-12 p-4">
-                <div className="container p-5">
-                    <img src={headerImg} alt="headerImg" width="100%" className="construct_img rounded-lg shadow"
-                         loading="lazy"/>
-                </div>
-            </div>
-
         </div>
 
 
