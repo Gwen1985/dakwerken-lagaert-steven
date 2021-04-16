@@ -27,17 +27,4 @@
 }
 
 
-@media screen and (max-width: 720px) {
-    .hamburger {
-        display: flex;
-    }
 
-    .navbar {
-        display: none
-    }
-
-    .dropdown-content {
-        font-size: 0.6em;
-    }
-
-}

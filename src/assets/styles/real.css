@@ -1,0 +1,19 @@
+.real {
+    background-image: url("../images/real_1.jpg");
+}
+
+
+@media screen and (max-width: 991px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        display: none
+    }
+
+    .dropdown-content {
+        font-size: 0.6em;
+    }
+
+}
