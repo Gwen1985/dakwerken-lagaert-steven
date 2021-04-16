@@ -36,7 +36,7 @@ const Home = () => {
     return (
 
         <div className="container-fluid">
-            <div className="home">
+
 
                 <Header/>
 
@@ -44,7 +44,7 @@ const Home = () => {
 
                 <Footer/>
 
-            </div>
+
         </div>
 
     )
