@@ -84,6 +84,7 @@
     border: 1px inset #5a5959;
     border-radius: 12px;
     height: auto;
+   filter: opacity(90%);
     box-shadow: 3px 6px 8px #343434;
 }
 
@@ -93,7 +94,7 @@
     border-radius: 12px;
     width: 100%;
     height: auto;
-    /*box-shadow: 2px 4px 6px #343434;*/
+filter: opacity(90%)    /*box-shadow: 2px 4px 6px #343434;*/
 }
 
 .dienstCard:hover {
