@@ -4,7 +4,6 @@ import logo from '../assets/images/Logo.png';
 import Nav from "./Nav";
 
 import '../assets/styles/header.css';
-import headerImg from "../assets/images/99094437_280153090042466_1861327496239120384_n.jpg";
 
 
 const Header = () => {

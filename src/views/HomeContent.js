@@ -2,7 +2,6 @@ import {Link} from "react-router-dom";
 
 import werkenOpDak from "../assets/images/werken-op-dak.jpg";
 import dakRamen from "../assets/images/dak-ramen.jpg";
-import logo from "../assets/images/Logo.png";
 
 import '../assets/styles/homeContent.css';
 
