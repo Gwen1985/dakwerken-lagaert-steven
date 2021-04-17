@@ -17,7 +17,7 @@ const PlatteDaken = () => {
         <div className="container-fluid">
 
             <div className="contactHeader">
-                <div className="row platdak">
+                <div className="row platHeaderImg">
                     <div className="col-9 col-sm-9 col-lg-4 p-5">
                         <Link to="/">
                             <img src={logo} alt="logo" width="100%" className="logoImg"/>
@@ -69,12 +69,12 @@ const PlatteDaken = () => {
 
             </div>
 
-            <div className="row platRoofing">
+            <div className="row platMidImg">
 
                 <div className="col-12 text-white text-center p-5">
 
                     <h2 className="contentTitle_3 p-5"> Uw plat dak aanpakken?</h2>
-                    <h2 className="contentTitle_2 p-3 ">Vraag gerust uw vrijblijvende offerte aan!</h2>
+                    <h2 className="contentTitle_2 p-3">Vraag gerust uw vrijblijvende offerte aan!</h2>
 
                     <Link to="/contact">
                         <button className="btn contacteer_btn font-weight-bold mt-2 p-3">Contacteer Steven</button>

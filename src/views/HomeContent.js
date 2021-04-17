@@ -47,19 +47,9 @@ const HomeContent = () => {
 
                 </div>
 
-
-                {/*<div className="col-sm-12 col-lg-6 pt-3 bg-white text-center ">*/}
-
-                {/*    <div className="imageWrapper p-5">*/}
-                {/*        <img src={werkenOpDak} alt="werken_op_dak" width="100%" className="werkenOpDak"/>*/}
-
-                {/*        <img src={dakRamen} alt="dak_ramen" width="100%" className="dakRamen"/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
             </div>
 
-            <div className="row dakpannen">
+            <div className="row homeMidImg">
 
                 <div className="col-12 text-white text-center p-5">
 
@@ -186,7 +176,7 @@ const HomeContent = () => {
             <div className="row dienstenWrapper mt-5">
 
                 <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">
-                    <a href="/hellende-daken" className="text-decoration-none">
+                    <Link to="/hellende-daken" className="text-decoration-none">
                         <div className="dienstCard text-center">
                             <i className="fas fa-home cardIcon p-4"/>
                             <h3 className="font-weight-bold p-3">HELLENDE DAKEN</h3>
@@ -196,7 +186,7 @@ const HomeContent = () => {
                                 installeren,…
                                 Steven doet het met de grootste zorg.</p>
                         </div>
-                    </a>
+                    </Link>
                 </div>
 
 
