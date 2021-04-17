@@ -88,7 +88,7 @@ const HellendeDaken = () => {
 
                     <div className="col-sm-12 col-lg-6 order-sm-2 p-5 d-flex justify-content-center">
 
-                        <img src={dakpanzwart} alt="dakpanzwart" width="100%"/>
+                        <img src={dakpanzwart} alt="dakpanzwart" width="100%" loading="lazy"/>
                     </div>
                     <div className="col-sm-12 col-lg-6  order-sm-1 p-5">
                         <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT

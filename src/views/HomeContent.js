@@ -1,8 +1,5 @@
 import {Link} from "react-router-dom";
 
-import werkenOpDak from "../assets/images/werken-op-dak.jpg";
-import dakRamen from "../assets/images/dak-ramen.jpg";
-
 import '../assets/styles/homeContent.css';
 
 
@@ -13,7 +10,7 @@ const HomeContent = () => {
 
             <div className="row">
 
-                <div className="col-sm-12 col-lg-6 pt-3 bg-white text-center">
+                <div className="col-sm-12 pt-3 bg-white text-center">
 
                     <div className="container pt-3">
                         <h2 className="contentTitle text-secondary pt-5 ">DAKWERKEN LAGAERT STEVEN UIT
@@ -51,15 +48,14 @@ const HomeContent = () => {
                 </div>
 
 
-                <div className="col-sm-12 col-lg-6 pt-3 bg-white text-center ">
+                {/*<div className="col-sm-12 col-lg-6 pt-3 bg-white text-center ">*/}
 
-                    <div className="imageWrapper p-5">
-                        <img src={werkenOpDak} alt="werken_op_dak" width="100%" className="werkenOpDak"
-                             loading="lazy"/>
-                        <img src={dakRamen} alt="dak_ramen" width="100%" className="dakRamen"
-                             loading="lazy"/>
-                    </div>
-                </div>
+                {/*    <div className="imageWrapper p-5">*/}
+                {/*        <img src={werkenOpDak} alt="werken_op_dak" width="100%" className="werkenOpDak"/>*/}
+
+                {/*        <img src={dakRamen} alt="dak_ramen" width="100%" className="dakRamen"/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
             </div>
 
@@ -109,12 +105,18 @@ const HomeContent = () => {
                                 Contacteer
                                 hem
                                 telefonisch, via mail of vul het contactformulier in.</p>
+
+
+                        </div>
+                        <div className="container d-flex justify-content-center p-3">
+                            <Link to="/contact" className="scrollTop">
+                                <button className="btn btn-outline-dark font-weight-bold p-3 offerteBtn_1">Offerte
+                                    aanvragen
+                                </button>
+                            </Link>
                         </div>
 
-                        <Link to="/contact">
-                            <button className="btn btn-outline-dark font-weight-bold p-3">Offerte aanvragen
-                            </button>
-                        </Link>
+
                     </div>
 
                 </div>
@@ -171,11 +173,20 @@ const HomeContent = () => {
 
             </div>
 
+            <div className="row offerteBtn_2">
+                <div className="col-12 d-flex justify-content-center">
+                    <Link to="/contact" className="scrollTop">
+                        <button className="btn btn-outline-dark font-weight-bold p-3">Offerte aanvragen
+                        </button>
+                    </Link>
+                </div>
+            </div>
+
 
             <div className="row dienstenWrapper mt-5">
 
                 <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">
-                    <Link to="/hellende-daken" className="text-decoration-none">
+                    <a href="/hellende-daken" className="text-decoration-none">
                         <div className="dienstCard text-center">
                             <i className="fas fa-home cardIcon p-4"/>
                             <h3 className="font-weight-bold p-3">HELLENDE DAKEN</h3>
@@ -185,7 +196,7 @@ const HomeContent = () => {
                                 installeren,…
                                 Steven doet het met de grootste zorg.</p>
                         </div>
-                    </Link>
+                    </a>
                 </div>
 
 
