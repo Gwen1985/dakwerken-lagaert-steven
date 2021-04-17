@@ -13,6 +13,7 @@ import GyprocWerken from "./views/GyprocWerken";
 import Realisaties from "./views/Realisaties";
 import Contact from "./views/Contact";
 import ScrollToTop from "./controllers/ScrollToTop";
+import {Fragment} from "react";
 
 
 const App = () => {
@@ -22,33 +23,35 @@ const App = () => {
         <div className="App">
 
             <Router>
-                <ScrollToTop>
-                    <Switch>
+                <Fragment>
+                    <ScrollToTop>
+                        <Switch>
 
-                        <Route path="/" exact component={Home}/>
+                            <Route path="/" exact component={Home}/>
 
-                        <Route path="/hellende-daken" exact component={HellendeDaken}/>
+                            <Route path="/hellende-daken" exact component={HellendeDaken}/>
 
-                        <Route path="/platte-daken" exact component={PlatteDaken}/>
+                            <Route path="/platte-daken" exact component={PlatteDaken}/>
 
-                        <Route path="/zink-werken" exact component={ZinkWerken}/>
+                            <Route path="/zink-werken" exact component={ZinkWerken}/>
 
-                        <Route path="/gevel-bekleding" exact component={GevelBekleding}/>
+                            <Route path="/gevel-bekleding" exact component={GevelBekleding}/>
 
-                        <Route path="/gyproc-werken" exact component={GyprocWerken}/>
+                            <Route path="/gyproc-werken" exact component={GyprocWerken}/>
 
-                        <Route path="/realisaties" exact component={Realisaties}/>
+                            <Route path="/realisaties" exact component={Realisaties}/>
 
-                        <Route path="/contact" exact component={Contact}/>
+                            <Route path="/contact" exact component={Contact}/>
 
-                        <Route path="/privacy-beleid" exact component={Contact}/>
+                            <Route path="/privacy-beleid" exact component={Contact}/>
 
-                        <Route path="/coockie-beleid" exact component={Contact}/>
+                            <Route path="/coockie-beleid" exact component={Contact}/>
 
-                        <Route path="/algemene-voorwaarden" exact component={Contact}/>
+                            <Route path="/algemene-voorwaarden" exact component={Contact}/>
 
-                    </Switch>
-                </ScrollToTop>
+                        </Switch>
+                    </ScrollToTop>
+                </Fragment>
             </Router>
 
         </div>
