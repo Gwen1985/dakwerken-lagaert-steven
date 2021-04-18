@@ -67,7 +67,7 @@ const HomeContent = () => {
 
 
                 <div className="col-sm-12 col-lg-6 order-lg-2 text-center">
-                    <div className="container">
+                    <div className="container talentOver">
                         <h2 className="contentTitle text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT EVERGEM</h2>
                         <h2 className="contentTitle_2 pt-3">Talent te over</h2>
 
@@ -112,7 +112,7 @@ const HomeContent = () => {
                 </div>
 
                 <div className="col-sm-12 mt-sm-3 col-lg-6 order-lg-1">
-                    <div className="container">
+                    <div className="container afspraak">
 
                         <div className="row">
                             <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">

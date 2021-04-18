@@ -60,7 +60,6 @@ const HellendeDaken = () => {
 
 
                     <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
-
                         <img src={ttt} alt="rooof" width="100%"/>
                     </div>
 

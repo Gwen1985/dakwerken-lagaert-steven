@@ -21,10 +21,33 @@ const Nav = () => {
                             </li>
 
                             <li className="nav-link list-unstyled">
-                                <Link to="/" className="link text-white">
+                                <p className="link text-white">
                                     Diensten
-                                    <span><i className="fas fa-angle-down text-white pl-2"/></span>
-                                </Link>
+                                    <i className="fas fa-angle-down text-white ml-2"/>
+
+                                    <div className="list_2">
+                                        <div className="list-content_2">
+                                            <span>
+                                                <ul className="nav-link pl-3">
+
+                                                <li className="nav-link list-unstyled">
+                                                    <Link to="/hellende-daken" className="link text-white">Hellendedaken</Link>
+                                                </li>
+
+                                                <li className="nav-link list-unstyled">
+                                                    <Link to="/platte-daken" className="link text-white">Plattedaken</Link>
+                                                </li>
+
+                                                <li className="nav-link list-unstyled">
+                                                    <Link to="/zink-werken" className="link text-white">Zinkwerken</Link>
+                                                </li>
+
+                                            </ul>
+                                            </span>
+
+                                        </div>
+                                    </div>
+                                </p>
                             </li>
 
                             <li className="nav-link list-unstyled">

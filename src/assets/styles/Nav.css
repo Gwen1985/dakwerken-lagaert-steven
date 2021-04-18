@@ -28,4 +28,25 @@
 }
 
 
+.list_2 {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.list-content_2 {
+    display: none;
+    position: absolute;
+    font-size: 1em;
+    background-color: #414141;
+    min-width: 160px;
+    box-shadow: 0px 3px 6px 0px #ffc107;
+    z-index: 1;
+    filter: opacity(90%);
+}
+
+.list_2:hover .list-content_2 {
+    display: inline-block;
+}
+
 
