@@ -1,7 +1,9 @@
 .headerWrapper {
     font-family: 'Montserrat', sans-serif;
-    background-color: #333333;
+    /*background-color: #333333;*/
+    background-image: linear-gradient(to right, #4c4c4c, #0e0909);
 }
+
 
 .titleWrapper, p {
 
