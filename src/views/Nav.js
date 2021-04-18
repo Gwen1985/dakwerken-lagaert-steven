@@ -8,6 +8,8 @@ const Nav = () => {
     return (
 
         <nav>
+
+            {/*navigation small screen*/}
             <div className="hamburger">
 
                 <div className="dropdown">
@@ -27,22 +29,26 @@ const Nav = () => {
 
                                     <div className="list_2">
                                         <div className="list-content_2">
-                                                <ul className="nav-link pl-3">
+                                            <ul className="nav-link pl-3">
 
                                                 <li className="nav-link list-unstyled">
-                                                    <Link to="/hellende-daken" className="link text-white">Hellendedaken</Link>
+                                                    <Link to="/hellende-daken"
+                                                          className="link text-white">Hellendedaken</Link>
                                                 </li>
 
                                                 <li className="nav-link list-unstyled">
-                                                    <Link to="/platte-daken" className="link text-white">Plattedaken</Link>
+                                                    <Link to="/platte-daken"
+                                                          className="link text-white">Plattedaken</Link>
                                                 </li>
 
                                                 <li className="nav-link list-unstyled">
-                                                    <Link to="/zink-werken" className="link text-white">Zinkwerken</Link>
+                                                    <Link to="/zink-werken"
+                                                          className="link text-white">Zinkwerken</Link>
                                                 </li>
 
-                                                    <li className="nav-link list-unstyled">
-                                                    <Link to="/zink-werken" className="link text-white">Gyprocwerken</Link>
+                                                <li className="nav-link list-unstyled">
+                                                    <Link to="/zink-werken"
+                                                          className="link text-white">Gyprocwerken</Link>
                                                 </li>
                                             </ul>
 
@@ -64,6 +70,7 @@ const Nav = () => {
                 </div>
             </div>
 
+            {/*navigation large screen*/}
             <div className="navbar">
                 <ul className="nav text-white">
                     <li className="nav-item list-unstyled">

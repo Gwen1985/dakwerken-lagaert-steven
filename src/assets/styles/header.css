@@ -1,9 +1,10 @@
 .headerWrapper {
+    font-family: 'Montserrat', sans-serif;
     background-color: #333333;
 }
 
 .titleWrapper, p {
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 .title_2 {
