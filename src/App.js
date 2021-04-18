@@ -36,6 +36,7 @@ const App = () => {
         tl.fromTo(['.title', '.title_3'], {opacity: "0%", x: "1em"}, {opacity: "100%", x: "0"});
         tl.fromTo(['.title_2', '.contactBtn'], {opacity: "0%", y: "1em"}, {opacity: "100%", y: "0", ease: "bounce"});
 
+
         // gsap.registerPlugin(ScrollTrigger);
         //
         // const tl1 = gsap.timeline({duration: 1});
@@ -47,8 +48,7 @@ const App = () => {
         //     scrub: 1
         // });
 
-
-        // let tl1 = gsap.timeline({
+        // const tl1 = gsap.timeline({
         //     ScrollTrigger: {
         //         trigger: ".afspraak",
         //         pin: true,   // pin the trigger element while active

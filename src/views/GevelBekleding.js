@@ -14,7 +14,7 @@ const GevelBekleding = () => {
     return (
         <div className="container-fluid">
 
-            <div className="contactHeader">
+            <div className="gevelHeader">
                 <div className="row gevelHeaderImg">
                     <div className="col-9 col-sm-9 col-lg-4 p-5">
                         <Link to="/">

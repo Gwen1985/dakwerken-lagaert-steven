@@ -163,7 +163,7 @@ const HomeContent = () => {
 
             </div>
 
-            <div className="row offerteBtn_2">
+            <div className="row offerteBtn_2 p-3">
                 <div className="col-12 d-flex justify-content-center">
                     <Link to="/contact" className="scrollTop">
                         <button className="btn btn-outline-dark font-weight-bold p-3">Offerte aanvragen
@@ -173,99 +173,99 @@ const HomeContent = () => {
             </div>
 
 
-            <div className="row dienstenWrapper mt-5">
+            {/*<div className="row dienstenWrapper mt-5">*/}
 
-                <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">
-                    <Link to="/hellende-daken" className="text-decoration-none">
-                        <div className="dienstCard text-center">
-                            <i className="fas fa-home cardIcon p-4"/>
-                            <h3 className="font-weight-bold p-3">HELLENDE DAKEN</h3>
-                            <p className="dienstText p-4">Dakgebintes timmeren, VELUX-ramen en dakpannen
-                                plaatsen,
-                                dakgoten
-                                installeren,…
-                                Steven doet het met de grootste zorg.</p>
-                        </div>
-                    </Link>
-                </div>
+            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
+            {/*        <Link to="/hellende-daken" className="text-decoration-none">*/}
+            {/*            <div className="dienstCard text-center">*/}
+            {/*                <i className="fas fa-home cardIcon p-4"/>*/}
+            {/*                <h3 className="font-weight-bold p-3">HELLENDE DAKEN</h3>*/}
+            {/*                <p className="dienstText p-4">Dakgebintes timmeren, VELUX-ramen en dakpannen*/}
+            {/*                    plaatsen,*/}
+            {/*                    dakgoten*/}
+            {/*                    installeren,…*/}
+            {/*                    Steven doet het met de grootste zorg.</p>*/}
+            {/*            </div>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
 
 
-                <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">
-                    <Link to="/platte-daken" className="text-decoration-none">
-                        <div className="dienstCard text-center">
-                            <i className="fas fa-building cardIcon p-4"/>
-                            <h3 className="font-weight-bold p-3">PLATTE DAKEN</h3>
-                            <p className="dienstText p-4">Dankzij Dakwerken Lagaert Steven bent u zeker van een
-                                lekvrij en
-                                naadloos afgewerkt plat dak, op maat van uw woning.</p>
-                        </div>
-                    </Link>
-                </div>
+            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
+            {/*        <Link to="/platte-daken" className="text-decoration-none">*/}
+            {/*            <div className="dienstCard text-center">*/}
+            {/*                <i className="fas fa-building cardIcon p-4"/>*/}
+            {/*                <h3 className="font-weight-bold p-3">PLATTE DAKEN</h3>*/}
+            {/*                <p className="dienstText p-4">Dankzij Dakwerken Lagaert Steven bent u zeker van een*/}
+            {/*                    lekvrij en*/}
+            {/*                    naadloos afgewerkt plat dak, op maat van uw woning.</p>*/}
+            {/*            </div>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
 
-            </div>
+            {/*</div>*/}
 
-            <div className="row dienstenWrapper">
+            {/*<div className="row dienstenWrapper">*/}
 
-                <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">
-                    <Link to="/zink-werken" className="text-decoration-none">
-                        <div className="dienstCard text-center">
-                            <i className="fas fa-tools cardIcon p-4"/>
-                            <h3 className="font-weight-bold p-3">ZINKWERKEN</h3>
-                            <p className="dienstText p-4">Steven plaatst dak- en hanggoten en bekleedt ze
-                                vakkundig
-                                in
-                                diverse materialen
-                                zoals hout, pvc of Trespa. </p>
-                        </div>
-                    </Link>
-                </div>
+            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
+            {/*        <Link to="/zink-werken" className="text-decoration-none">*/}
+            {/*            <div className="dienstCard text-center">*/}
+            {/*                <i className="fas fa-tools cardIcon p-4"/>*/}
+            {/*                <h3 className="font-weight-bold p-3">ZINKWERKEN</h3>*/}
+            {/*                <p className="dienstText p-4">Steven plaatst dak- en hanggoten en bekleedt ze*/}
+            {/*                    vakkundig*/}
+            {/*                    in*/}
+            {/*                    diverse materialen*/}
+            {/*                    zoals hout, pvc of Trespa. </p>*/}
+            {/*            </div>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
 
-                <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">
-                    <Link to="/gevel-bekleding" className="text-decoration-none">
-                        <div className="dienstCard text-center">
-                            <i className="fas fa-hammer cardIcon p-4"/>
-                            <h3 className="font-weight-bold p-3">GEVELBEKLEDING</h3>
-                            <p className="dienstText p-4">Voor stijlvolle en professionele gevelbekleding die
-                                tegen
-                                een
-                                stootje kan, moet u
-                                bij Dakwerken Lagaert Steven zijn. </p>
-                        </div>
-                    </Link>
-                </div>
+            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
+            {/*        <Link to="/gevel-bekleding" className="text-decoration-none">*/}
+            {/*            <div className="dienstCard text-center">*/}
+            {/*                <i className="fas fa-hammer cardIcon p-4"/>*/}
+            {/*                <h3 className="font-weight-bold p-3">GEVELBEKLEDING</h3>*/}
+            {/*                <p className="dienstText p-4">Voor stijlvolle en professionele gevelbekleding die*/}
+            {/*                    tegen*/}
+            {/*                    een*/}
+            {/*                    stootje kan, moet u*/}
+            {/*                    bij Dakwerken Lagaert Steven zijn. </p>*/}
+            {/*            </div>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
 
-            </div>
+            {/*</div>*/}
 
-            <div className="row dienstenWrapper">
+            {/*<div className="row dienstenWrapper">*/}
 
-                <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex justify-content-center">
-                    <Link to="/gyproc-werken" className="text-decoration-none">
-                        <div className="dienstCard text-center">
-                            <i className="fas fa-ruler-combined cardIcon p-4"/>
-                            <h3 className="font-weight-bold p-3">GYPROCWERKEN</h3>
-                            <p className="dienstText p-4">Extra slaapkamers creëren op zolder of uw volledige
-                                woning
-                                herinrichten, de
-                                mogelijkheden zijn eindeloos met Gyproc. </p>
-                        </div>
-                    </Link>
-                </div>
+            {/*    <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex justify-content-center">*/}
+            {/*        <Link to="/gyproc-werken" className="text-decoration-none">*/}
+            {/*            <div className="dienstCard text-center">*/}
+            {/*                <i className="fas fa-ruler-combined cardIcon p-4"/>*/}
+            {/*                <h3 className="font-weight-bold p-3">GYPROCWERKEN</h3>*/}
+            {/*                <p className="dienstText p-4">Extra slaapkamers creëren op zolder of uw volledige*/}
+            {/*                    woning*/}
+            {/*                    herinrichten, de*/}
+            {/*                    mogelijkheden zijn eindeloos met Gyproc. </p>*/}
+            {/*            </div>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
 
-                <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex justify-content-center">
-                    <Link to="/realisaties" className="text-decoration-none">
-                        <div className="dienstCard text-center">
-                            <i className="fas fa-camera cardIcon p-4"/>
-                            <h3 className="font-weight-bold p-3">REALISATIES</h3>
-                            <p className="dienstText p-4">Bekijk Stevens vorige projecten en doe inspiratie op
-                                voor
-                                uw eigen
-                                werken. Zijn
-                                vakmanschap zal u verbluffen. </p>
-                        </div>
-                    </Link>
-                </div>
+            {/*    <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex justify-content-center">*/}
+            {/*        <Link to="/realisaties" className="text-decoration-none">*/}
+            {/*            <div className="dienstCard text-center">*/}
+            {/*                <i className="fas fa-camera cardIcon p-4"/>*/}
+            {/*                <h3 className="font-weight-bold p-3">REALISATIES</h3>*/}
+            {/*                <p className="dienstText p-4">Bekijk Stevens vorige projecten en doe inspiratie op*/}
+            {/*                    voor*/}
+            {/*                    uw eigen*/}
+            {/*                    werken. Zijn*/}
+            {/*                    vakmanschap zal u verbluffen. </p>*/}
+            {/*            </div>*/}
+            {/*        </Link>*/}
+            {/*    </div>*/}
 
-            </div>
+            {/*</div>*/}
         </div>
     )
 }
