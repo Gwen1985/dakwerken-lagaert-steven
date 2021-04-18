@@ -27,24 +27,14 @@ const App = () => {
     useEffect(() => {
 
 
-        const tl = gsap.timeline({duration: 0.3});
+        const tl = gsap.timeline({duration: 1});
 
-        tl.fromTo('.logoImg', {scale: 1.5, opacity: "0%"}, {opacity: "100%",  rotate: -720, scale: 0.1});
-        tl.to('.logoImg', {rotate: 360, scale: 1});
+        tl.fromTo('.logoImg', {scale: 1.5, opacity: "0%"}, {scale: 0.1, opacity: "100%",  rotate: -360});
+        tl.to('.logoImg', { scale: 1, ease: "bounce"});
 
-
-        tl.fromTo('.hamburger', {opacity: "0%"}, {opacity: "100%"});
-        tl.fromTo('.navbar', {opacity: "0%", y: "1em"}, {opacity: "100%", y: 0});
-        // tl.fromTo('.first', {opacity: "0%"}, {opacity: "100%"});
-        // tl.fromTo('.second', {opacity: "0%"}, {opacity: "100%"});
-        // tl.fromTo('.third', {opacity: "0%"}, {opacity: "100%"});
-        // tl.fromTo('.fourth', {opacity: "0%"}, {opacity: "100%"});
-
-        tl.fromTo('.title', {opacity: "0%", x: "1em"}, {opacity: "100%", x: "0"});
-        tl.fromTo('.title_2', {opacity: "0%", x: "-1em"}, {opacity: "100%", x: "0"});
-        tl.fromTo('.title_3', {opacity: "0%", x: "1em"}, {opacity: "100%", x: "0"});
-
-        tl.fromTo('.contactBtn', {opacity: "0%", y: "1em"}, {opacity: "100%", y: "0"});
+        tl.fromTo(['.hamburger', '.navbar'], {opacity: "0%"}, {opacity: "100%"});
+        tl.fromTo(['.title', '.title_3'], {opacity: "0%", x: "1em"}, {opacity: "100%", x: "0"});
+        tl.fromTo(['.title_2', '.contactBtn'], {opacity: "0%", y: "1em"}, {opacity: "100%", y: "0", ease: "bounce"});
 
         // gsap.registerPlugin(ScrollTrigger);
         //
