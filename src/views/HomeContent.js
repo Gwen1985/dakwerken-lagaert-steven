@@ -136,7 +136,7 @@ const HomeContent = () => {
                             </div>
                         </div>
 
-                        <div className="row mt-2">
+                        <div className="row mt-2 mb-5">
                             <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
