@@ -27,7 +27,6 @@ const Nav = () => {
 
                                     <div className="list_2">
                                         <div className="list-content_2">
-                                            <span>
                                                 <ul className="nav-link pl-3">
 
                                                 <li className="nav-link list-unstyled">
@@ -42,8 +41,10 @@ const Nav = () => {
                                                     <Link to="/zink-werken" className="link text-white">Zinkwerken</Link>
                                                 </li>
 
+                                                    <li className="nav-link list-unstyled">
+                                                    <Link to="/zink-werken" className="link text-white">Gyprocwerken</Link>
+                                                </li>
                                             </ul>
-                                            </span>
 
                                         </div>
                                     </div>
@@ -55,7 +56,7 @@ const Nav = () => {
                             </li>
 
                             <li className="nav-link list-unstyled">
-                                <Link to="/contact" className="link text-white">Contact</Link>
+                                <Link to="/gyproc-werken" className="link text-white">Gyprocwerken</Link>
                             </li>
 
                         </ul>
