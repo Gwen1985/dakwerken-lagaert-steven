@@ -13,7 +13,7 @@ const Header = () => {
 
         <div className="row p-4 headerWrapper">
 
-            <div className="col-12 p-3">
+            <div className="col-9 col-sm-9 col-lg-4">
                 <div className="container p-5">
                     <Link to="/">
                         <img src={logo} alt="logo" width="100%" className="logoImg"/>
@@ -22,12 +22,12 @@ const Header = () => {
             </div>
 
 
-            <div className="col-12 col-sm-12 mb-5 d-flex justify-content-center">
+            <div className="col-3 col-sm-3 col-lg-8 pt-5 d-flex justify-content-center">
                 <Nav/>
             </div>
 
 
-            <div className="col-12 col-sm-12 text-center">
+            <div className="col-12 text-center">
                 <div className="titleWrapper">
 
                     <h1 className="title text-white">Dakwerken Lagaert Steven</h1>
