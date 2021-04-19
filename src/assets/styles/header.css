@@ -30,16 +30,5 @@
         font-size: 1.5em;
     }
 
-    .hamburger {
-        display: flex;
-    }
-
-    .navbar {
-        display: none
-    }
-
-    .dropdown-content {
-        font-size: 0.6em;
-    }
 
 }
