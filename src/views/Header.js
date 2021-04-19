@@ -29,7 +29,7 @@ const Header = () => {
 
             <div className="col-12 text-center">
                 <div className="titleWrapper">
-
+f
                     <h1 className="title text-white">Dakwerken Lagaert Steven</h1>
 
                     <p className="title_2 text-warning">UIT EVERGEM</p>
