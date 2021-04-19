@@ -1,5 +1,9 @@
 .gyprocHeaderImg {
-    background-image: url("../images/gyprocHeaderImg.jpg");
+    background-image: url("../images/gyprocHeaderImg1.jpg");
+}
+
+.headerTitle {
+    font-size: 1.5em;
 }
 
 .gyprocMidImg {

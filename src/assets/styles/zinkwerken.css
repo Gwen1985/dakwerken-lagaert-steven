@@ -2,6 +2,10 @@
     background-image: url("../images/zinkWerk1.jpg");
 }
 
+.headerTitle {
+    font-size: 1.5em;
+}
+
 .zinkMidImg {
     background-image: url("../images/zinkeekhoorn.jpg");
 }

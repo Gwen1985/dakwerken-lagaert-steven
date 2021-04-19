@@ -31,7 +31,7 @@ const PlatteDaken = () => {
                     <div className="col-12 text-center">
                         <div className="container p-3">
                             <h1 className="text-white p-3"> Platte daken </h1>
-                            <p className="text-white p-3">Met roofing en EPDM van topmerken als Resitrix en
+                            <p className="headerTitle text-white p-3">Met roofing en EPDM van topmerken als Resitrix en
                                 Mastersystems.
 
                             </p>

@@ -29,7 +29,7 @@ const GyprocWerken = () => {
                     <div className="col-12 text-center">
                         <div className="container p-3">
                             <h1 className="text-white p-3"> Gyprocwerken </h1>
-                            <p className="text-white p-3">Van kleine kamers & zolders tot volledige woningen.</p>
+                            <p className="headerTitle text-white p-3">Van kleine kamers & zolders tot volledige woningen.</p>
                         </div>
                     </div>
                 </div>

@@ -31,7 +31,7 @@ const ZinkWerken = () => {
                     <div className="col-12 text-center">
                         <div className="container p-3">
                             <h1 className="text-white p-3"> Zinkwerken </h1>
-                            <p className="text-white p-3">Dak- en hanggoten in pvc, hout & Trespa.</p>
+                            <p className="headerTitle text-white p-3">Dak- en hanggoten in pvc, hout & Trespa.</p>
                         </div>
                     </div>
                 </div>

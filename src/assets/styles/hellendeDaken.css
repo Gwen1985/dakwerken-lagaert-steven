@@ -2,6 +2,10 @@
     background-image: url("../images/hellenddak.jpg");
 }
 
+.headerTitle {
+    font-size: 1.5em;
+}
+
 .helMidImg {
     background-image: url("../images/helMidImg.jpg");
 }

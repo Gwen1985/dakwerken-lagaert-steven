@@ -31,6 +31,10 @@ nav {
     display: inline-block;
 }
 
+.navbar {
+    font-size: 1.5em;
+}
+
 
 /*.list_2 {*/
 /*    position: relative;*/

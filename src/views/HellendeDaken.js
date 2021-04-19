@@ -30,7 +30,7 @@ const HellendeDaken = () => {
                     <div className="col-12 text-center">
                         <div className="container p-3">
                             <h1 className="text-white p-3"> Hellende daken </h1>
-                            <p className="text-white p-3">Van kleine timmerwerken tot dakkoepels plaatsen.</p>
+                            <p className="headerTitle text-white p-3">Van kleine timmerwerken tot dakkoepels plaatsen.</p>
                         </div>
                     </div>
                 </div>

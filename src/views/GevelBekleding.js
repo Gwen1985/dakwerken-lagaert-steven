@@ -29,7 +29,7 @@ const GevelBekleding = () => {
                     <div className="col-12 text-center">
                         <div className="container p-3">
                             <h1 className="text-white p-3"> Gevelbekleding </h1>
-                            <p className="text-white p-3">Kwalitatieve gevelbekleding met pvc, Trespa, sidings of
+                            <p className="headerTitle text-white p-3">Kwalitatieve gevelbekleding met pvc, Trespa, sidings of
                                 hout. </p>
                         </div>
                     </div>
