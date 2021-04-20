@@ -70,7 +70,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/37.jpg">
-                                <img src={img1} alt="1" height="225px" width="250px"/>
+                                <img src={img1} alt="1" className="contentImg" height="225px" width="250px"/>
                             </a>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/24.jpg">
-                                <img src={img2} alt="1" height="225px" width="250px"/>
+                                <img src={img2} alt="1" className="contentImg" height="225px" width="250px"/>
                             </a>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/26.jpg">
-                                <img src={img3} alt="1" height="225px" width="250px"/>
+                                <img src={img3} alt="1" className="contentImg" height="225px" width="250px"/>
                             </a>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/29.jpg">
-                                <img src={img4} alt="1" height="225px" width="250px"/>
+                                <img src={img4} alt="1" className="contentImg" height="225px" width="250px"/>
                             </a>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/34.jpg">
-                                <img src={img5} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img5} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/35.jpg">
-                                <img src={img6} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img6} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/36.jpg">
-                                <img src={img7} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img7} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/43.jpg">
-                                <img src={img8} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img8} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/25.jpg">
-                                <img src={img9} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img9} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/30.jpg">
-                                <img src={img10} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img10} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -160,7 +160,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/31.jpg">
-                                <img src={img11} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img11} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -168,7 +168,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/32.jpg">
-                                <img src={img12} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img12} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -179,7 +179,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/39.jpg">
-                                <img src={img13} alt="1" height="225px" width="250" loading="lazy"/>
+                                <img src={img13} alt="1" className="contentImg" height="225px" width="250" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -188,7 +188,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/40.jpg">
-                                <img src={img14} alt="1" height="225px" width="250" loading="lazy"/>
+                                <img src={img14} alt="1" className="contentImg" height="225px" width="250" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -196,7 +196,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/151839569_473928200652155_3406835121137357829_n.jpg">
-                                <img src={img15} alt="1" height="225px" width="250" loading="lazy"/>
+                                <img src={img15} alt="1" className="contentImg" height="225px" width="250" loading="lazy"/>
                             </a>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ const Realisaties = () => {
                     <div className="col-sm-12 col-md-6 col-lg-3 p-2 pb-5">
                         <div className="container d-flex justify-content-center">
                             <a href="https://dakwerken-lagaertsteven.be/wp-content/uploads/2021/03/132686688_435317724513203_2545919773940641552_n.jpg">
-                                <img src={img16} alt="1" height="225px" width="250px" loading="lazy"/>
+                                <img src={img16} alt="1" className="contentImg" height="225px" width="250px" loading="lazy"/>
                             </a>
                         </div>
                     </div>
