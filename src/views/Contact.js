@@ -120,7 +120,7 @@ class Contact extends Component {
                         <div className="col-12 text-center">
                             <div className="container p-3">
                                 <h1 className="text-white p-3"> Contact </h1>
-                                <p className="text-white p-3">Steven staat steeds voor u klaar!</p>
+                                <p className="headerTitle text-white p-3">Steven staat steeds voor u klaar!</p>
                             </div>
                         </div>
                     </div>

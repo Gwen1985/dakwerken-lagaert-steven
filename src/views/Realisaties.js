@@ -44,7 +44,7 @@ const Realisaties = () => {
                     <div className="col-12 text-center">
                         <div className="container p-3">
                             <h1 className="text-white p-3"> Realisaties </h1>
-                            <p className="text-white p-3">Elk project tot in de puntjes afgewerkt.</p>
+                            <p className="headerTitle text-white p-3">Elk project tot in de puntjes afgewerkt.</p>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,10 @@
     background-image: url("../images/real_1.jpg");
 }
 
+.headerTitle {
+    font-size: 1.5em;
+}
+
 
 @media screen and (max-width: 991px) {
     .hamburger {
