@@ -66,7 +66,7 @@ const GyprocWerken = () => {
 
                     <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
 
-                        <img src={gyprocImg} alt="gyprocImg" width="100%"/>
+                        <img src={gyprocImg} alt="gyprocImg" className="contentImg" width="100%"/>
                     </div>
 
 

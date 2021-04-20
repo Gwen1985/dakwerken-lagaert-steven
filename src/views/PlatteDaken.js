@@ -62,7 +62,7 @@ const PlatteDaken = () => {
 
                     <div className="col-sm-12 col-lg-6 order-lg-1 p-5 d-flex justify-content-center">
 
-                        <img src={rt} alt="rooof" width="100%"/>
+                        <img src={rt} alt="rooof" className="contentImg" width="100%"/>
                     </div>
 
                 </div>
@@ -105,7 +105,7 @@ const PlatteDaken = () => {
 
                     <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
 
-                        <img src={platKoepel} alt="dakpanzwart" width="100%"/>
+                        <img src={platKoepel} alt="dakpanzwart" className="contentImg" width="100%"/>
                     </div>
                 </div>
 

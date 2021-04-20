@@ -59,7 +59,7 @@ const ZinkWerken = () => {
 
                     <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
 
-                        <img src={zinkhouse} alt="zinkHouse" width="100%"/>
+                        <img src={zinkhouse} alt="zinkHouse" className="contentImg" width="100%"/>
                     </div>
 
                 </div>
@@ -100,7 +100,7 @@ const ZinkWerken = () => {
 
                     <div className="col-sm-12 col-lg-6 order-lg-1 p-5 d-flex justify-content-center">
 
-                        <img src={zinkHerstel} alt="ZinkHerstel" width="100%"/>
+                        <img src={zinkHerstel} alt="ZinkHerstel" className="contentImg" width="100%"/>
                     </div>
                 </div>
 

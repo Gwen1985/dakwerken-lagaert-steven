@@ -9,3 +9,8 @@
 .helMidImg {
     background-image: url("../images/helMidImg.jpg");
 }
+
+.contentImg {
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px #bbaaaa;
+}

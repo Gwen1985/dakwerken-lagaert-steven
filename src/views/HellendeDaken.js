@@ -60,7 +60,7 @@ const HellendeDaken = () => {
 
 
                     <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
-                        <img src={ttt} alt="rooof" width="100%"/>
+                        <img src={ttt} alt="rooof" className="contentImg" width="100%"/>
                     </div>
 
 
@@ -102,7 +102,7 @@ const HellendeDaken = () => {
                     </div>
 
                     <div className="col-sm-12 col-lg-6 order-lg-1 p-5 d-flex justify-content-center">
-                        <img src={dakpanzwart} alt="dakpanzwart" width="100%" loading="lazy"/>
+                        <img src={dakpanzwart} alt="dakpanzwart" className="contentImg" width="100%" loading="lazy"/>
                     </div>
 
 

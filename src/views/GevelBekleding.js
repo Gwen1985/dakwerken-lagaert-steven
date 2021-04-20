@@ -59,7 +59,7 @@ const GevelBekleding = () => {
 
                     <div className="col-sm-12 col-lg-6 order-lg-1 p-5 d-flex justify-content-center">
 
-                        <img src={gevel_1} alt="gevel" width="100%"/>
+                        <img src={gevel_1} alt="gevel" className="contentImg" width="100%"/>
                     </div>
 
                 </div>
