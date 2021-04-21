@@ -62,7 +62,7 @@ const Nav = () => {
                             </li>
 
                             <li className="nav-link list-unstyled">
-                                <Link to="/gyproc-werken" className="link text-white">Gyprocwerken</Link>
+                                <Link to="/contact" className="link text-white">Contact</Link>
                             </li>
 
                         </ul>

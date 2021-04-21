@@ -30,6 +30,7 @@ nav {
 .dropdown:hover .dropdown-content {
     display: inline-block;
     margin-left: -50px;
+    margin-top: 40px;
 }
 
 .navbar {
