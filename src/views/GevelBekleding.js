@@ -45,12 +45,12 @@ const GevelBekleding = () => {
 
                         <h2 className="text-center p-3">Uw gevel in een nieuw jasje</h2>
 
-                        <p className="contentText text-center p-2">Om uw verweerde of beschadigde gevels een nieuwe look
+                        <p className="contentText p-2">Om uw verweerde of beschadigde gevels een nieuwe look
                             aan te meten, bent u bij Dakwerken Lagaert Steven aan het juiste adres. Steven weet met
                             iedere stijl raad, van modern tot klassiek. Hij bekleedt uw gevel met materialen zoals pvc,
                             Trespa, sidings of hout.</p>
 
-                        <p className="contentText text-center p-2">Uw wensen en budget staan steeds centraal. Dankzij de
+                        <p className="contentText p-2">Uw wensen en budget staan steeds centraal. Dankzij de
                             expertise van Dakwerken Lagaert Steven kunt u in een mum van tijd genieten van prachtige
                             resultaten die volledig in lijn met uw woning liggen.</p>
 

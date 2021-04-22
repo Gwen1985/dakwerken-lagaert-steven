@@ -3,6 +3,8 @@ import {Link} from "react-router-dom";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
+// import ImageZoom from 'react-medium-image-zoom';
+
 import logo from "../assets/images/Logo.png";
 import img1 from '../assets/images/1.jpg';
 import img2 from '../assets/images/2.jpg';
@@ -54,10 +56,10 @@ const Realisaties = () => {
                 <div className="row">
                     <div className="col-12">
 
-                        <div className="container p-5 text-center">
-                            <h2>Onovertrefbaar vakmanschap</h2>
+                        <div className="container p-5">
+                            <h2 className="text-center">Onovertrefbaar vakmanschap</h2>
 
-                            <p className="p-5">Bekijk hier de vorige projecten van Dakwerken Lagaert Steven en laat u
+                            <p className="contentText p-5">Bekijk hier de vorige projecten van Dakwerken Lagaert Steven en laat u
                                 overtuigen door een
                                 ervaren vakmanschap waarbij duurzaamheid centraal staat.</p>
                         </div>

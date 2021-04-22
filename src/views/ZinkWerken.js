@@ -46,11 +46,11 @@ const ZinkWerken = () => {
 
                         <h2 className="text-center p-3">Elegante uitstraling</h2>
 
-                        <p className="contentText text-center p-2">Een vakkundig geplaatste dakgoot biedt heel wat
+                        <p className="contentText p-2">Een vakkundig geplaatste dakgoot biedt heel wat
                             voordelen. Uw dak ziet er niet alleen netjes afgewerkt uit maar u bent ook zeker van een
                             goede waterafvoer.</p>
 
-                        <p className="contentText text-center p-2">Dakwerken Lagaert Steven regelt die klus dan ook
+                        <p className="contentText p-2">Dakwerken Lagaert Steven regelt die klus dan ook
                             graag voor u. Steven plaatst dak- en hanggoten bij hellende en platte daken en bekleedt ze
                             in pvc, hout of Trespa.</p>
 
@@ -89,10 +89,10 @@ const ZinkWerken = () => {
 
                         <h2 className="text-center p-3">Herstellingen</h2>
 
-                        <p className="contentText text-center p-2">Vertoont uw huidige dakgoot scheuren of lekken? Dan
+                        <p className="contentText p-2">Vertoont uw huidige dakgoot scheuren of lekken? Dan
                             voert Steven de nodige renovaties of herstellingen uit met oog voor detail.</p>
 
-                        <p className="contentText text-center p-2">Bij Dakwerken Lagaert Steven staat een transparante
+                        <p className="contentText p-2">Bij Dakwerken Lagaert Steven staat een transparante
                             communicatie bovendien centraal. Zo bent u zeker van een duidelijke en klantvriendelijke
                             service.</p>
 

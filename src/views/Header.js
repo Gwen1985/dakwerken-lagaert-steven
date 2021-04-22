@@ -36,9 +36,9 @@ f
 
                     <p className="title_3 text-white">Dakwerken volgens het boekje.</p>
 
-                    <Link to="/contact">
-                        <button className="btn btn-outline-warning contactBtn mt-2">Contact</button>
-                    </Link>
+                    {/*<Link to="/contact">*/}
+                    {/*    <button className="btn btn-outline-warning contactBtn mt-2">Contact</button>*/}
+                    {/*</Link>*/}
                 </div>
             </div>
 

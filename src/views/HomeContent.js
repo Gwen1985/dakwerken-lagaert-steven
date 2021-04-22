@@ -10,15 +10,18 @@ const HomeContent = () => {
 
             <div className="row">
 
-                <div className="col-sm-12 pt-3 bg-white text-center">
+                <div className="col-sm-12 pt-3  ">
 
                     <div className="container pt-3">
-                        <h2 className="contentTitle text-secondary pt-5 ">DAKWERKEN LAGAERT STEVEN UIT
+
+                        <h2 className="contentTitle text-secondary text-center pt-5 ">DAKWERKEN LAGAERT STEVEN UIT
                             EVERGEM</h2>
                         <h2 className="contentTitle_2 pt-3">Uw dak tot in de puntjes afgewerkt</h2>
 
-                        <div className="container contenttextBox text-center p-5 mt-3">
-                            <p className="contentText">Is uw hellend of plat dak aan vervanging toe? Of
+                        <div className="container mt-3">
+                            <p className="contentText p-5">Is uw hellend of plat dak aan vervanging toe?
+                                <br/>
+                                Of
                                 wilt u een
                                 volledig
                                 nieuw dak laten
@@ -26,7 +29,7 @@ const HomeContent = () => {
                                 <br/>
                                 Dakwerken Lagaert Steven klaart de klus voor u!</p>
 
-                            <p className="contentText">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
+                            <p className="contentText p-5">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
                                 dan
                                 twaalf jaar
                                 ervaring en slaat voor zijn
@@ -36,11 +39,6 @@ const HomeContent = () => {
                                 een
                                 goede
                                 prijs-kwaliteit en duurzame eindresultaten.</p>
-
-                            <Link to="/contact" className="offerte">
-                                offerte aanvragen
-                                <i className="fas fa-arrow-right ml-2"/>
-                            </Link>
                         </div>
 
                     </div>
@@ -66,12 +64,13 @@ const HomeContent = () => {
             <div className="row pt-5 d-flex justify-content-center">
 
 
-                <div className="col-sm-12 col-lg-6 order-lg-2 text-center">
+                <div className="col-sm-12 col-lg-6 order-lg-2">
                     <div className="container talentOver">
-                        <h2 className="contentTitle text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT EVERGEM</h2>
-                        <h2 className="contentTitle_2 pt-3">Talent te over</h2>
 
-                        <div className="container contenttextBox text-center p-5 mt-3">
+                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT EVERGEM</h2>
+                        <h2 className="contentTitle_2 text-center pt-3">Talent te over</h2>
+
+                        <div className="container contenttextBox p-5 mt-3">
                             <p className="contentText">Het dienstenpakket van Dakwerken Lagaert Steven bestaat
                                 uit
                                 dakwerken
@@ -114,7 +113,7 @@ const HomeContent = () => {
                 <div className="col-sm-12 mt-sm-3 col-lg-6 order-lg-1">
                     <div className="container afspraak">
 
-                        <div className="row">
+                        <div className="row mt-5">
                             <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
@@ -136,7 +135,7 @@ const HomeContent = () => {
                             </div>
                         </div>
 
-                        <div className="row mt-2 mb-5">
+                        <div className="row mt-5 mb-5">
                             <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
@@ -172,100 +171,6 @@ const HomeContent = () => {
                 </div>
             </div>
 
-
-            {/*<div className="row dienstenWrapper mt-5">*/}
-
-            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
-            {/*        <Link to="/hellende-daken" className="text-decoration-none">*/}
-            {/*            <div className="dienstCard text-center">*/}
-            {/*                <i className="fas fa-home cardIcon p-4"/>*/}
-            {/*                <h3 className="font-weight-bold p-3">HELLENDE DAKEN</h3>*/}
-            {/*                <p className="dienstText p-4">Dakgebintes timmeren, VELUX-ramen en dakpannen*/}
-            {/*                    plaatsen,*/}
-            {/*                    dakgoten*/}
-            {/*                    installeren,…*/}
-            {/*                    Steven doet het met de grootste zorg.</p>*/}
-            {/*            </div>*/}
-            {/*        </Link>*/}
-            {/*    </div>*/}
-
-
-            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
-            {/*        <Link to="/platte-daken" className="text-decoration-none">*/}
-            {/*            <div className="dienstCard text-center">*/}
-            {/*                <i className="fas fa-building cardIcon p-4"/>*/}
-            {/*                <h3 className="font-weight-bold p-3">PLATTE DAKEN</h3>*/}
-            {/*                <p className="dienstText p-4">Dankzij Dakwerken Lagaert Steven bent u zeker van een*/}
-            {/*                    lekvrij en*/}
-            {/*                    naadloos afgewerkt plat dak, op maat van uw woning.</p>*/}
-            {/*            </div>*/}
-            {/*        </Link>*/}
-            {/*    </div>*/}
-
-            {/*</div>*/}
-
-            {/*<div className="row dienstenWrapper">*/}
-
-            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
-            {/*        <Link to="/zink-werken" className="text-decoration-none">*/}
-            {/*            <div className="dienstCard text-center">*/}
-            {/*                <i className="fas fa-tools cardIcon p-4"/>*/}
-            {/*                <h3 className="font-weight-bold p-3">ZINKWERKEN</h3>*/}
-            {/*                <p className="dienstText p-4">Steven plaatst dak- en hanggoten en bekleedt ze*/}
-            {/*                    vakkundig*/}
-            {/*                    in*/}
-            {/*                    diverse materialen*/}
-            {/*                    zoals hout, pvc of Trespa. </p>*/}
-            {/*            </div>*/}
-            {/*        </Link>*/}
-            {/*    </div>*/}
-
-            {/*    <div className="col-sm-12 col-md-6 p-4 d-flex justify-content-center">*/}
-            {/*        <Link to="/gevel-bekleding" className="text-decoration-none">*/}
-            {/*            <div className="dienstCard text-center">*/}
-            {/*                <i className="fas fa-hammer cardIcon p-4"/>*/}
-            {/*                <h3 className="font-weight-bold p-3">GEVELBEKLEDING</h3>*/}
-            {/*                <p className="dienstText p-4">Voor stijlvolle en professionele gevelbekleding die*/}
-            {/*                    tegen*/}
-            {/*                    een*/}
-            {/*                    stootje kan, moet u*/}
-            {/*                    bij Dakwerken Lagaert Steven zijn. </p>*/}
-            {/*            </div>*/}
-            {/*        </Link>*/}
-            {/*    </div>*/}
-
-            {/*</div>*/}
-
-            {/*<div className="row dienstenWrapper">*/}
-
-            {/*    <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex justify-content-center">*/}
-            {/*        <Link to="/gyproc-werken" className="text-decoration-none">*/}
-            {/*            <div className="dienstCard text-center">*/}
-            {/*                <i className="fas fa-ruler-combined cardIcon p-4"/>*/}
-            {/*                <h3 className="font-weight-bold p-3">GYPROCWERKEN</h3>*/}
-            {/*                <p className="dienstText p-4">Extra slaapkamers creëren op zolder of uw volledige*/}
-            {/*                    woning*/}
-            {/*                    herinrichten, de*/}
-            {/*                    mogelijkheden zijn eindeloos met Gyproc. </p>*/}
-            {/*            </div>*/}
-            {/*        </Link>*/}
-            {/*    </div>*/}
-
-            {/*    <div className="col-sm-12 col-md-6 col-lg-6 p-4 d-flex justify-content-center">*/}
-            {/*        <Link to="/realisaties" className="text-decoration-none">*/}
-            {/*            <div className="dienstCard text-center">*/}
-            {/*                <i className="fas fa-camera cardIcon p-4"/>*/}
-            {/*                <h3 className="font-weight-bold p-3">REALISATIES</h3>*/}
-            {/*                <p className="dienstText p-4">Bekijk Stevens vorige projecten en doe inspiratie op*/}
-            {/*                    voor*/}
-            {/*                    uw eigen*/}
-            {/*                    werken. Zijn*/}
-            {/*                    vakmanschap zal u verbluffen. </p>*/}
-            {/*            </div>*/}
-            {/*        </Link>*/}
-            {/*    </div>*/}
-
-            {/*</div>*/}
         </div>
     )
 }

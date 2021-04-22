@@ -43,22 +43,22 @@ const GyprocWerken = () => {
 
                         <h2 className="text-center p-3">Uw ruimtes optimaal benut</h2>
 
-                        <p className="contentText text-center p-2">Wil u graag een extra slaapkamer creëren op zolder of
+                        <p className="contentText p-2">Wil u graag een extra slaapkamer creëren op zolder of
                             valse wanden en plafonds laten plaatsen? Dakwerken Lagaert Steven helpt u graag met
                             Gyprocwerken.</p>
 
-                        <p className="contentText text-center p-2">In eender welke ruimte kan Steven Gyprocplaten
+                        <p className="contentText p-2">In eender welke ruimte kan Steven Gyprocplaten
                             plaatsen, naargelang uw behoeften. De platen kunt u achteraf eenvoudig overschilderen of
                             behangen.</p>
 
-                        <p className="contentText text-center p-2">Van kleine kamers en zolders herinrichten tot
+                        <p className="contentText p-2">Van kleine kamers en zolders herinrichten tot
                             volledige woningen onder handen nemen, Steven doet het allemaal met plezier.</p>
 
-                        <p className="contentText text-center p-2">Steven zit eerst met u samen om uw plannen te
+                        <p className="contentText p-2">Steven zit eerst met u samen om uw plannen te
                             bespreken
                             en vertaalt uw wensen nadien zorgvuldig naar de realiteit.</p>
 
-                        <p className="contentText text-center p-2">Ga voor de inrichting van uw dromen met Dakwerken
+                        <p className="contentText p-2">Ga voor de inrichting van uw dromen met Dakwerken
                             Lagaert Steven!</p>
 
                     </div>

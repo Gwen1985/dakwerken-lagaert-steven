@@ -49,11 +49,11 @@ const PlatteDaken = () => {
 
                         <h2 className="text-center p-3">Vermijd schade of lekken</h2>
 
-                        <p className="contentText text-center p-2">Zoekt u een ervaren dakwerker om uw platte dak te
+                        <p className="contentText p-2">Zoekt u een ervaren dakwerker om uw platte dak te
                             dichten? Dan kunt u terecht bij Dakwerken Lagaert Steven. Steven gaat aan de slag met
                             verschillende kwaliteitsmaterialen.</p>
 
-                        <p className="contentText text-center p-2">Zo maakt hij bijvoorbeeld gebruik van roofing en EPDM
+                        <p className="contentText p-2">Zo maakt hij bijvoorbeeld gebruik van roofing en EPDM
                             van de merken Resitrix en Mastersystems. U bent steeds verzekerd van een naadloze
                             afwerking.</p>
 
@@ -92,13 +92,13 @@ const PlatteDaken = () => {
 
                         <h2 className="text-center p-3">Uitgebreid advies</h2>
 
-                        <p className="contentText text-center p-2">Dakwerken Lagaert Steven staat u graag bij met
+                        <p className="contentText p-2">Dakwerken Lagaert Steven staat u graag bij met
                             gericht advies over materialen.</p>
 
-                        <p className="contentText text-center p-2">Steven komt uw dak inspecteren en bepaalt samen met u
+                        <p className="contentText p-2">Steven komt uw dak inspecteren en bepaalt samen met u
                             de ideale oplossing op maat van uw woning, achterbouw of garage.</p>
 
-                        <p className="contentText text-center p-2">Dankzij zijn uitgebreide vakkennis bent u zeker van
+                        <p className="contentText p-2">Dankzij zijn uitgebreide vakkennis bent u zeker van
                             een lekvrij plat dak, dat jarenlang meegaat.</p>
 
                     </div>

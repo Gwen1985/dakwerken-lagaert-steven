@@ -39,21 +39,20 @@ const HellendeDaken = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-lg-6 p-5">
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
+                        {/*<h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT*/}
+                        {/*    EVERGEM</h2>*/}
 
                         <h2 className="text-center p-3">Totaal service</h2>
 
-                        <p className="contentText text-center p-2">Dakwerken Lagaert Steven voert zowel in nieuwbouw–
+                        <p className="contentText p-2">Dakwerken Lagaert Steven voert zowel in nieuwbouw–
                             als renovatieprojecten dakwerken uit met oog voor detail.</p>
 
-                        <p className="contentText text-center p-2">Stevens dienstenpakket is erg uitgebreid: hij timmert
+                        <p className="contentText p-2">Stevens dienstenpakket is erg uitgebreid: hij timmert
                             dakgebintes, plaatst isolatie, VELUX-ramen en dakkoepels en bekleedt uw dak met dakpannen of
                             leien.</p>
 
-                        <p className="contentText text-center p-2">Verder installeert en bekleedt hij ook dakgoten en
+                        <p className="contentText p-2">Verder installeert en bekleedt hij ook dakgoten en
                             voert hij kleine timmerwerken uit. Zijn service is snel en efficiënt.
-
                         </p>
 
                     </div>
@@ -86,16 +85,16 @@ const HellendeDaken = () => {
                 <div className="row">
 
                     <div className="col-sm-12 col-lg-6  order-lg-2 p-5">
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
+                        {/*<h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT*/}
+                        {/*    EVERGEM</h2>*/}
 
                         <h2 className="text-center p-3">Diverse dakpannen</h2>
 
-                        <p className="contentText text-center p-2">Eerst zit Steven met u samen om uw plannen te
+                        <p className="contentText p-2">Eerst zit Steven met u samen om uw plannen te
                             bespreken. Hij kan exact bepalen of er renovatiewerken en herstellingen nodig zijn, of dat u
                             best voor een volledig nieuw dak gaat.</p>
 
-                        <p className="contentText text-center p-2">Zijn specialisatie is dakpannen plaatsen. U heeft de
+                        <p className="contentText p-2">Zijn specialisatie is dakpannen plaatsen. U heeft de
                             keuze uit een ruim assortiment aan kleuren, vormen en afwerkingen (bv. mat of glanzend).
                             Stijlvolle en waterdichte resultaten gegarandeerd!.</p>
 

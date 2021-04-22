@@ -133,15 +133,16 @@ class Contact extends Component {
 
                             <h2 className="text-center p-3">Onze gegevens</h2>
 
-                            <p className="contentText text-center p-2">Wenst u meer informatie over het dienstenpakket
+                            <p className="contentText p-2">Wenst u meer informatie over het dienstenpakket
                                 of
                                 wil u
                                 een offerte
-                                aanvragen? Contacteer Steven dan via onderstaande gegevens of vul het contactformulier
+                                aanvragen?
+                                <br/>
+                                Contacteer Steven dan via onderstaande gegevens of vul het contactformulier
                                 in.</p>
 
-
-                            <div className="container p-5">
+                            <div className="container p-5 ml-3">
                                 <a href="https://goo.gl/maps/UhEHFrsD3Eh1ZoR89" target="_blank" rel="noreferrer"
                                    className="text-decoration-none text-dark">
                                     <p>
@@ -179,7 +180,7 @@ class Contact extends Component {
                                 mogelijk verder.</p>
 
 
-                            <div className="container text-center p-5">
+                            <div className="container p-5">
                                 <form name="contactform" onSubmit={this.contactSubmit.bind(this)}>
                                     <fieldset>
                                         <ul className="list-unstyled">
@@ -188,7 +189,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="Voornaam"
-                                                    size="50"
+
                                                     ref="firstName"
                                                     onChange={this.handleChange.bind(this, "firstName")}
                                                     value={this.state.fields["firstName"]}
@@ -202,7 +203,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="familienaam"
-                                                    size="50"
+
                                                     ref="lastName"
                                                     onChange={this.handleChange.bind(this, "lastName")}
                                                     value={this.state.fields["lastName"]}
@@ -216,7 +217,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="Adres"
-                                                    size="50"
+
                                                     ref="Address"
                                                     onChange={this.handleChange.bind(this, "Address")}
                                                     value={this.state.fields["Address"]}
@@ -230,7 +231,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="Telefoon"
-                                                    size="50"
+
                                                     ref="Tel"
                                                     onChange={this.handleChange.bind(this, "Tel")}
                                                     value={this.state.fields["Tel"]}
@@ -245,7 +246,7 @@ class Contact extends Component {
                                                     type="email"
                                                     required={true}
                                                     placeholder="Email"
-                                                    size="50"
+
                                                     ref="Email"
                                                     onChange={this.handleChange.bind(this, "Email")}
                                                     value={this.state.fields["Email"]}
@@ -255,8 +256,8 @@ class Contact extends Component {
                                             </li>
 
                                             <li>
-                                                <textarea
-                                                    placeholder="Bericht"
+                                                <input
+                                                    placeholder="Schrijf hier je bericht"
                                                     required={true}
                                                     ref="Mess"
                                                     onChange={this.handleChange.bind(this, "Mess")}
@@ -266,13 +267,15 @@ class Contact extends Component {
 
                                             <li>
 
-                                                <input
-                                                    type="checkbox"
-                                                    required={true}
-                                                    className="mr-2"
-                                                />
+
+                                                <div className="container">
+                                                    <input
+                                                        type="checkbox"
+                                                        required={true}
+                                                        className="mr-2"
+                                                    />
                                                 Ik ga ermee akkoord dat de ingevoerde informatie gebruikt zal worden om
-                                                contact met mij op te nemen.
+                                                    contact met mij op te nemen.</div>
                                             </li>
 
                                             <li>
