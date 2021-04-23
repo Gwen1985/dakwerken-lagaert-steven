@@ -10,16 +10,16 @@ const HomeContent = () => {
 
             <div className="row">
 
-                <div className="col-sm-12 pt-3  ">
+                <div className="col-sm-12 pt-3">
 
-                    <div className="container pt-3">
+                    <div className="container text-center pt-3">
 
-                        <h2 className="contentTitle text-secondary text-center pt-5 ">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
-                        <h2 className="contentTitle_2 pt-3">Uw dak tot in de puntjes afgewerkt</h2>
+                        {/*<h2 className="contentTitle text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT*/}
+                        {/*    EVERGEM</h2>*/}
+                        <h2 className="contentTitle_2 pt-5">Uw dak tot in de puntjes afgewerkt</h2>
 
-                        <div className="container mt-3">
-                            <p className="contentText p-5">Is uw hellend of plat dak aan vervanging toe?
+                        <div className="container p-5">
+                            <p className="contentText">Is uw hellend of plat dak aan vervanging toe?
                                 <br/>
                                 Of
                                 wilt u een
@@ -29,11 +29,13 @@ const HomeContent = () => {
                                 <br/>
                                 Dakwerken Lagaert Steven klaart de klus voor u!</p>
 
-                            <p className="contentText p-5">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
+                            <p className="contentText">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
                                 dan
                                 twaalf jaar
                                 ervaring en slaat voor zijn
-                                projecten de handen in elkaar met drie andere zelfstandigen. Steven
+                                projecten de handen in elkaar met drie andere zelfstandigen.</p>
+
+                            <p className="contentText">Steven
                                 garandeert u
                                 steeds
                                 een
@@ -52,9 +54,9 @@ const HomeContent = () => {
                 <div className="col-12 text-white text-center p-5">
 
                     <h2 className="contentTitle_3 p-5">Dakwerken in het vooruitzicht?</h2>
-                    <h2 className="contentTitle_2 p-3 ">Vraag gerust uw vrijblijvende offerte aan!</h2>
+                    <h2 className="contentTitle_2 p-3">Vraag gerust uw vrijblijvende offerte aan!</h2>
 
-                    <Link to="/contact">
+                    <Link to="/contact" className="scrollTop">
                         <button className="btn contacteer_btn font-weight-bold mt-2 p-3">Contacteer Steven</button>
                     </Link>
                 </div>
@@ -68,7 +70,7 @@ const HomeContent = () => {
                     <div className="container talentOver">
 
                         <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT EVERGEM</h2>
-                        <h2 className="contentTitle_2 text-center pt-3">Talent te over</h2>
+                        <h2 className="contentTitle_2 text-center pt-5">Talent te over</h2>
 
                         <div className="container contenttextBox p-5 mt-3">
                             <p className="contentText">Het dienstenpakket van Dakwerken Lagaert Steven bestaat
@@ -98,10 +100,10 @@ const HomeContent = () => {
 
                         </div>
                         <div className="container d-flex justify-content-center p-3">
+
+
                             <Link to="/contact" className="scrollTop">
-                                <button className="btn btn-outline-dark font-weight-bold p-3 offerteBtn_1">Offerte
-                                    aanvragen
-                                </button>
+                                <button className="btn contacteer_btn2 font-weight-bold mt-2 p-3">Contacteer Steven</button>
                             </Link>
                         </div>
 
@@ -113,8 +115,8 @@ const HomeContent = () => {
                 <div className="col-sm-12 mt-sm-3 col-lg-6 order-lg-1">
                     <div className="container afspraak">
 
-                        <div className="row mt-5">
-                            <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                        <div className="row cards mt-5">
+                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fab fa-envira p-4"/>
@@ -124,7 +126,7 @@ const HomeContent = () => {
 
                             </div>
 
-                            <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fas fa-tools p-4"/>
@@ -135,8 +137,8 @@ const HomeContent = () => {
                             </div>
                         </div>
 
-                        <div className="row mt-5 mb-5">
-                            <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                        <div className="row cards mt-5 mb-5">
+                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fab fa-envira p-4"/>
@@ -146,7 +148,7 @@ const HomeContent = () => {
 
                             </div>
 
-                            <div className="col-sm-12 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fas fa-tools p-4"/>
@@ -164,9 +166,8 @@ const HomeContent = () => {
 
             <div className="row offerteBtn_2 p-3">
                 <div className="col-12 d-flex justify-content-center">
-                    <Link to="/contact" className="scrollTop">
-                        <button className="btn btn-outline-dark font-weight-bold p-3">Offerte aanvragen
-                        </button>
+                    <Link to="/contact">
+                        <button className="btn contacteer_btn font-weight-bold mt-2 p-3">Contacteer Steven</button>
                     </Link>
                 </div>
             </div>

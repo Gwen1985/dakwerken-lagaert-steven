@@ -2,15 +2,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.contentTitle, .talentTitle {
+.contentTitle {
     font-size: 1em;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
-.contentTitle_2, .talentTitle_2 {
+.contentTitle_2 {
     font-size: 2.5em;
-
 }
 
 .contentTitle_3 {
@@ -18,7 +17,7 @@
     font-weight: bold;
 }
 
-.contentText, .talentText {
+.contentText {
     font-size: 1.3em;
 }
 
@@ -48,20 +47,20 @@
     color: #ffc107
 }
 
+.contacteer_btn2 {
+    background-color: #ffc107;
+    color: #414141;
+}
+
+.contacteer_btn2:hover {
+    background-color: #414141;
+    color: #ffc107
+}
+
 .container_2 {
     position: relative;
     text-align: center;
     color: white;
-}
-
-.offerte {
-    color: #414141;
-    font-size: 1.5em;
-}
-
-.offerte:hover {
-    color: #414141;
-    text-decoration: underline;
 }
 
 .card {
@@ -73,33 +72,6 @@
     box-shadow: 2px 4px 6px #343434;
 }
 
-.card:hover {
-    background-color: #ffc107;
-    border: 1px inset #5a5959;
-    border-radius: 12px;
-    height: auto;
-    filter: opacity(90%);
-    box-shadow: 3px 6px 8px #343434;
-}
-
-.dienstenWrapper {
-    background-color: #333333;
-}
-
-.dienstCard {
-    color: #ffc107;
-    border: 1px inset #e6e646;
-    border-radius: 12px;
-    width: 100%;
-    height: auto;
-    filter: opacity(90%) /*box-shadow: 2px 4px 6px #343434;*/
-}
-
-.dienstCard:hover {
-    background-color: #ffc107;
-    color: #414141;
-    box-shadow: 2px 4px 6px #d4d4d4;
-}
 
 .cardIcon {
     font-size: 1.5em;
@@ -124,23 +96,46 @@
     transform: translate(0%, -75%);
 }
 
-.offerteBtn_1 {
+.contacteer_btn2 {
     display: none;
 }
 
 
-@media screen and (max-width: 991px) {
 
+@media screen and (max-width: 991px) {
     .contentText, .talentText {
         letter-spacing: 2px;
     }
 
-    .offerteBtn_1 {
+    .contacteer_btn2 {
         display: flex;
     }
 
-    .offerteBtn_2 {
+    .contacteer_btn {
         display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        background-color: #bbbbbb;
+        border: 1px inset #ffc107;
+        border-radius: 12px;
+        width: 100%;
+        height: auto;
+        box-shadow: 2px 4px 6px #343434;
+    }
+
+    .card:hover {
+        background-color: #ffc107;
+        border: 1px inset #5a5959;
+        border-radius: 12px;
+        height: auto;
+        filter: opacity(90%);
+        box-shadow: 3px 6px 8px #343434;
     }
 
 }
