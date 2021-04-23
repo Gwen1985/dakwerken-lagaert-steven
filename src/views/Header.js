@@ -12,11 +12,11 @@ const Header = () => {
 
     return (
 
-        <div className="row headerWrapper pnglogo p-4">
+        <div className="row headerWrapper p-4">
 
             <div className="col-9 col-sm-9 col-lg-4 ">
                 <div className="container p-5">
-
+                    {/*<img src={pnglogo} alt="logo" className="pnglogo" width="50%"/>*/}
                     <Link to="/">
                         <img src={logo} alt="logo" width="100%" className="logoImg"/>
                     </Link>
@@ -24,17 +24,17 @@ const Header = () => {
             </div>
 
 
-            <div className="col-3 col-sm-3 col-lg-8 navigation pt-5 d-flex justify-content-center ">
+            <div className="col-3 col-sm-3 col-lg-8 navigation pt-5 d-flex justify-content-center">
                 <Nav/>
             </div>
 
-            <div className="container-fluid ">
+            <div className="container">
                 <div className="row text-center">
                     <div className="col-12  text-white">
 
                         <div className="titleWrapper">
 
-                            <img src={pnglogo} alt="logo" width="25%"/>
+                            <img src={pnglogo} alt="logo"  className="pnglogo" width="25%"/>
                             <h1 className="title mt-2">Dakwerken Lagaert Steven</h1>
 
                             <p className="title_2 text-warning">UIT EVERGEM</p>

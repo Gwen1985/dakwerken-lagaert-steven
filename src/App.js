@@ -32,7 +32,10 @@ const App = () => {
         tl.fromTo('.logoImg', {scale: 1.5, opacity: "0%"}, {scale: 0.1, opacity: "100%",  rotate: -360});
         tl.to('.logoImg', { scale: 1, ease: "bounce"});
 
+
         tl.fromTo(['.hamburger', '.navbar'], {opacity: "0%"}, {opacity: "100%"});
+        tl.fromTo('.pnglogo', { scale: 0}, {scale: 1, ease: "slow"});
+
         tl.fromTo(['.title', '.title_3'], {opacity: "0%", x: "1em"}, {opacity: "100%", x: "0"});
         tl.fromTo(['.title_2', '.contactBtn'], {opacity: "0%", y: "1em"}, {opacity: "100%", y: "0", ease: "bounce"});
 
