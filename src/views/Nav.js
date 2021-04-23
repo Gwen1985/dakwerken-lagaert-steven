@@ -47,6 +47,11 @@ const Nav = () => {
                                                 </li>
 
                                                 <li className="nav-link list-unstyled">
+                                                    <Link to="/gevel-bekleding"
+                                                          className="link text-white">Gevelbekleding</Link>
+                                                </li>
+
+                                                <li className="nav-link list-unstyled">
                                                     <Link to="/zink-werken"
                                                           className="link text-white">Gyprocwerken</Link>
                                                 </li>
