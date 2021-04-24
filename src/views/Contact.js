@@ -256,10 +256,11 @@ class Contact extends Component {
                                             </li>
 
                                             <li>
-                                                <input
+                                                <textarea
                                                     placeholder="Schrijf hier je bericht"
                                                     required={true}
                                                     ref="Mess"
+                                                    cols={30}
                                                     onChange={this.handleChange.bind(this, "Mess")}
                                                     value={this.state.fields["Mess"]}
                                                 />
