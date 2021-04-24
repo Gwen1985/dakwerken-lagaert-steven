@@ -113,7 +113,7 @@ const HomeContent = () => {
                 <div className="col-sm-12 mt-sm-3 col-lg-6 order-lg-1">
                     <div className="container afspraak">
 
-                        <div className="row cards mt-5">
+                        <div className="row cards mt-4">
                             <div
                                 className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
@@ -137,7 +137,7 @@ const HomeContent = () => {
                             </div>
                         </div>
 
-                        <div className="row cards mt-5 mb-5">
+                        <div className="row cards mt-3 mb-5">
                             <div
                                 className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
