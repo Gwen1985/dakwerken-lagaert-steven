@@ -142,32 +142,45 @@ class Contact extends Component {
                                 Contacteer Steven dan via onderstaande gegevens of vul het contactformulier
                                 in.</p>
 
-                            <div className="container p-5 ml-3">
-                                <a href="https://goo.gl/maps/UhEHFrsD3Eh1ZoR89" target="_blank" rel="noreferrer"
-                                   className="text-decoration-none text-dark">
-                                    <p>
-                                        <i className="fas fa-map-marker-alt text-warning mr-2 mt-2"/>
-                                        Durmestraat 28, 9940 Evergem
-                                    </p>
-                                </a>
+                            <div className="container justify-content-around p-5 ml-3">
 
-                                <a href="tel: 0032497219273" className="text-decoration-none text-dark">
-                                    <p>
-                                        <i className="fas fa-mobile-alt text-warning mr-2"/>
-                                        0497/21.92.73
-                                    </p>
-                                </a>
+                                <ul className="list-unstyled p-3">
+                                    <li>
+                                        <a href="https://goo.gl/maps/UhEHFrsD3Eh1ZoR89" target="_blank" rel="noreferrer"
+                                           className="text-decoration-none text-dark">
+                                            <p>
+                                                <i className="fas fa-map-marker-alt text-warning mr-2 mt-2"/>
+                                                Durmestraat 28, 9940 Evergem
+                                            </p>
+                                        </a>
+                                    </li>
 
-                                <a href="mailto: info@dakwerken-lagaertsteven.be"
-                                   className="text-decoration-none text-dark">
-                                    <p>
-                                        <i className="fas fa-envelope-open text-warning mr-2"/>
-                                        info@dakwerken-lagaertsteven.be
-                                    </p>
-                                </a>
+                                    <li>
+                                        <a href="tel: 0032497219273" className="text-decoration-none text-dark">
+                                            <p>
+                                                <i className="fas fa-mobile-alt text-warning mr-2"/>
+                                                0497/21.92.73
+                                            </p>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="mailto: info@dakwerken-lagaertsteven.be"
+                                           className="text-decoration-none text-dark">
+                                            <p>
+                                                <i className="fas fa-envelope-open text-warning mr-2"/>
+                                                info@dakwerken-lagaertsteven.be
+                                            </p>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <p><i className="fas fa-building text-warning mr-2"/>BE 0732.478.078</p>
+
+                                    </li>
+                                </ul>
 
 
-                                <p><i className="fas fa-building text-warning mr-2"/>BE 0732.478.078</p>
                             </div>
                         </div>
 
@@ -189,7 +202,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="Voornaam"
-
+                                                    className="inputField"
                                                     ref="firstName"
                                                     onChange={this.handleChange.bind(this, "firstName")}
                                                     value={this.state.fields["firstName"]}
@@ -203,7 +216,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="familienaam"
-
+                                                    className="inputField"
                                                     ref="lastName"
                                                     onChange={this.handleChange.bind(this, "lastName")}
                                                     value={this.state.fields["lastName"]}
@@ -217,7 +230,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="Adres"
-
+                                                    className="inputField"
                                                     ref="Address"
                                                     onChange={this.handleChange.bind(this, "Address")}
                                                     value={this.state.fields["Address"]}
@@ -231,7 +244,7 @@ class Contact extends Component {
                                                     type="text"
                                                     required={true}
                                                     placeholder="Telefoon"
-
+                                                    className="inputField"
                                                     ref="Tel"
                                                     onChange={this.handleChange.bind(this, "Tel")}
                                                     value={this.state.fields["Tel"]}
@@ -246,7 +259,7 @@ class Contact extends Component {
                                                     type="email"
                                                     required={true}
                                                     placeholder="Email"
-
+                                                    className="inputField"
                                                     ref="Email"
                                                     onChange={this.handleChange.bind(this, "Email")}
                                                     value={this.state.fields["Email"]}
@@ -260,7 +273,7 @@ class Contact extends Component {
                                                     placeholder="Schrijf hier je bericht"
                                                     required={true}
                                                     ref="Mess"
-                                                    cols={30}
+                                                    className="textArea"
                                                     onChange={this.handleChange.bind(this, "Mess")}
                                                     value={this.state.fields["Mess"]}
                                                 />
@@ -275,12 +288,16 @@ class Contact extends Component {
                                                         required={true}
                                                         className="mr-2"
                                                     />
-                                                Ik ga ermee akkoord dat de ingevoerde informatie gebruikt zal worden om
-                                                    contact met mij op te nemen.</div>
+                                                    Ik ga ermee akkoord dat de ingevoerde informatie gebruikt zal worden
+                                                    om
+                                                    contact met mij op te nemen.
+                                                </div>
                                             </li>
 
                                             <li>
-                                                <input type="submit" className="mt-5"/>
+                                                <div className="d-flex justify-content-center">
+                                                <input type="submit" className="btn btn-outline-dark mt-5 "/>
+                                                </div>
                                             </li>
                                         </ul>
                                     </fieldset>
