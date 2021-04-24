@@ -6,10 +6,6 @@
     font-size: 1.5em;
 }
 
-.coontentImg {
-
-}
-
 @media screen and (max-width: 991px) {
     .hamburger {
         display: flex;

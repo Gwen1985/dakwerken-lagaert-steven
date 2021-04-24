@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 
 import '../assets/styles/homeContent.css';
+import risingRoof from '../assets/images/Raising_roof.jpg';
 
 
 const HomeContent = () => {
@@ -10,15 +11,16 @@ const HomeContent = () => {
 
             <div className="row">
 
-                <div className="col-sm-12 pt-3">
+                <div className="col-sm-12 col-lg-6 pt-3">
 
-                    <div className="container text-center pt-3">
+                    <div className="container pt-3">
 
-                        {/*<h2 className="contentTitle text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT*/}
-                        {/*    EVERGEM</h2>*/}
-                        <h2 className="contentTitle_2 pt-5">Uw dak tot in de puntjes afgewerkt</h2>
+
 
                         <div className="container p-5">
+                            <h2 className="contentTitle text-center text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT
+                                EVERGEM</h2>
+                            <h2 className="contentTitle_2 text-center py-5">Uw dak tot in de puntjes afgewerkt</h2>
                             <p className="contentText">Is uw hellend of plat dak aan vervanging toe?
                                 <br/>
                                 Of
@@ -47,6 +49,10 @@ const HomeContent = () => {
 
                 </div>
 
+                <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
+                    <img src={risingRoof} alt="rooof" className="contentImg" width="75%"/>
+                </div>
+
             </div>
 
             <div className="row homeMidImg">
@@ -69,7 +75,8 @@ const HomeContent = () => {
                 <div className="col-sm-12 col-lg-6 order-lg-2">
                     <div className="container talentOver">
 
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT EVERGEM</h2>
+                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
+                            EVERGEM</h2>
                         <h2 className="contentTitle_2 text-center pt-5">Talent te over</h2>
 
                         <div className="container contenttextBox p-5 mt-3">
@@ -97,16 +104,7 @@ const HomeContent = () => {
                                 hem
                                 telefonisch, via mail of vul het contactformulier in.</p>
 
-
                         </div>
-                        <div className="container d-flex justify-content-center p-3">
-
-
-                            <Link to="/contact" className="scrollTop">
-                                <button className="btn contacteer_btn2 font-weight-bold mt-2 p-3">Contacteer Steven</button>
-                            </Link>
-                        </div>
-
 
                     </div>
 
@@ -116,7 +114,8 @@ const HomeContent = () => {
                     <div className="container afspraak">
 
                         <div className="row cards mt-5">
-                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                            <div
+                                className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fab fa-envira p-4"/>
@@ -126,7 +125,8 @@ const HomeContent = () => {
 
                             </div>
 
-                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                            <div
+                                className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fas fa-tools p-4"/>
@@ -138,7 +138,8 @@ const HomeContent = () => {
                         </div>
 
                         <div className="row cards mt-5 mb-5">
-                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                            <div
+                                className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fab fa-envira p-4"/>
@@ -148,7 +149,8 @@ const HomeContent = () => {
 
                             </div>
 
-                            <div className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
+                            <div
+                                className="col-sm-12 mt-5 col-md-12 col-lg-6 text-center d-flex justify-content-center">
 
                                 <div className="card text-center mt-2">
                                     <i className="fas fa-tools p-4"/>
@@ -162,14 +164,6 @@ const HomeContent = () => {
 
                 </div>
 
-            </div>
-
-            <div className="row offerteBtn_2 p-3">
-                <div className="col-12 d-flex justify-content-center">
-                    <Link to="/contact">
-                        <button className="btn contacteer_btn font-weight-bold mt-2 p-3">Contacteer Steven</button>
-                    </Link>
-                </div>
             </div>
 
         </div>

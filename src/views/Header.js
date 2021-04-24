@@ -16,7 +16,6 @@ const Header = () => {
 
             <div className="col-9 col-sm-9 col-lg-4 ">
                 <div className="container p-5">
-                    {/*<img src={pnglogo} alt="logo" className="pnglogo" width="50%"/>*/}
                     <Link to="/">
                         <img src={logo} alt="logo" width="100%" className="logoImg"/>
                     </Link>

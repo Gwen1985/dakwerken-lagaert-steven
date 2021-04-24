@@ -15,7 +15,7 @@ const HellendeDaken = () => {
     return (
         <div className="container-fluid">
 
-            <div className="contactHeader">
+            <div className="helHeader">
                 <div className="row helHeaderImg">
                     <div className="col-9 col-sm-9 col-lg-4 p-5">
                         <Link to="/">
@@ -39,8 +39,8 @@ const HellendeDaken = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-lg-6 p-5">
-                        {/*<h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT*/}
-                        {/*    EVERGEM</h2>*/}
+                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
+                            EVERGEM</h2>
 
                         <h2 className="text-center p-3">Totaal service</h2>
 
@@ -85,8 +85,8 @@ const HellendeDaken = () => {
                 <div className="row">
 
                     <div className="col-sm-12 col-lg-6  order-lg-2 p-5">
-                        {/*<h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT*/}
-                        {/*    EVERGEM</h2>*/}
+                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
+                            EVERGEM</h2>
 
                         <h2 className="text-center p-3">Diverse dakpannen</h2>
 

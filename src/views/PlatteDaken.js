@@ -16,7 +16,7 @@ const PlatteDaken = () => {
 
         <div className="container-fluid">
 
-            <div className="contactHeader">
+            <div className="platHeader">
                 <div className="row platHeaderImg">
                     <div className="col-9 col-sm-9 col-lg-4 p-5">
                         <Link to="/">
