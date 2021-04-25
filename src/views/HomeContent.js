@@ -17,9 +17,9 @@ const HomeContent = () => {
 
                         <h2 className="contentTitle text-center text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT
                             EVERGEM</h2>
-                        <h2 className="contentTitle_2 text-center py-5">Uw dak tot in de puntjes afgewerkt</h2>
+                        <h2 className="contentTitle_2 text-center pt-5">Uw dak tot in de puntjes afgewerkt</h2>
                         <div className="container p-5">
-                            <p className="contentText p-3">Is uw hellend of plat dak aan vervanging toe?
+                            <p className="contentText">Is uw hellend of plat dak aan vervanging toe?
                                 <br/>
                                 Of
                                 wilt u een
@@ -29,13 +29,13 @@ const HomeContent = () => {
                                 <br/>
                                 Dakwerken Lagaert Steven klaart de klus voor u!</p>
 
-                            <p className="contentText p-2">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
+                            <p className="contentText">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
                                 dan
                                 twaalf jaar
                                 ervaring en slaat voor zijn
                                 projecten de handen in elkaar met drie andere zelfstandigen.</p>
 
-                            <p className="contentText p-2">Steven
+                            <p className="contentText">Steven
                                 garandeert u
                                 steeds
                                 een
