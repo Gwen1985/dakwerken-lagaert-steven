@@ -12,8 +12,9 @@ const Footer = () => {
         <div className="row footer text-center text-white font-weight-bold p-5">
 
             <div className="col-sm-12 col-lg-3 mt-4">
-
-                <img src={logo} alt="logo" width="100%"/>
+                <Link to="/">
+                    <img src={logo} alt="logo" width="100%"/>
+                </Link>
 
                 <div className="container pt-3">
                     <p className="mt-3">Dakwerken Lagaert uit Evergem is uw dakwerker voor hellende & platte
