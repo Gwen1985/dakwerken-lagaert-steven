@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import logo from '../assets/images/Logo.png';
 import Nav from "./Nav";
 
-import pnglogo from '../assets/images/304713.png';
+import pnglogo from '../assets/images/304713222.png';
 
 import '../assets/styles/header.css';
 
