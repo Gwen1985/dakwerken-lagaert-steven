@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 
 import '../assets/styles/homeContent.css';
-import risingRoof from '../assets/images/Raising_roof.jpg';
+import risingRoof from '../assets/images/Raising_roof2.jpg';
 
 
 const HomeContent = () => {
@@ -15,13 +15,11 @@ const HomeContent = () => {
 
                     <div className="container pt-3">
 
-
-
+                        <h2 className="contentTitle text-center text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT
+                            EVERGEM</h2>
+                        <h2 className="contentTitle_2 text-center py-5">Uw dak tot in de puntjes afgewerkt</h2>
                         <div className="container p-5">
-                            <h2 className="contentTitle text-center text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                                EVERGEM</h2>
-                            <h2 className="contentTitle_2 text-center py-5">Uw dak tot in de puntjes afgewerkt</h2>
-                            <p className="contentText">Is uw hellend of plat dak aan vervanging toe?
+                            <p className="contentText p-3">Is uw hellend of plat dak aan vervanging toe?
                                 <br/>
                                 Of
                                 wilt u een
@@ -31,13 +29,13 @@ const HomeContent = () => {
                                 <br/>
                                 Dakwerken Lagaert Steven klaart de klus voor u!</p>
 
-                            <p className="contentText">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
+                            <p className="contentText p-2">Zelfwerkend zaakvoerder Steven Lagaert heeft meer
                                 dan
                                 twaalf jaar
                                 ervaring en slaat voor zijn
                                 projecten de handen in elkaar met drie andere zelfstandigen.</p>
 
-                            <p className="contentText">Steven
+                            <p className="contentText p-2">Steven
                                 garandeert u
                                 steeds
                                 een
@@ -49,8 +47,8 @@ const HomeContent = () => {
 
                 </div>
 
-                <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
-                    <img src={risingRoof} alt="rooof" className="contentImg" width="75%"/>
+                <div className="col-sm-12 col-lg-6 p-5  d-flex justify-content-center">
+                    <img src={risingRoof} alt="rooof" className="contentImg risingRoof" width="100%" height="75%"/>
                 </div>
 
             </div>

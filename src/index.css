@@ -18,7 +18,19 @@ code {
     monospace;
 }
 
-.contentImg {
-  border-radius: 25px;
-  box-shadow: 4px 4px 4px 4px #bbaaaa;
+
+@media screen and (max-width: 991px){
+  .contentImg {
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px #bbaaaa;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .contentImg {
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px #bbaaaa;
+  }
 }

@@ -96,7 +96,6 @@
 }
 
 
-
 @media screen and (max-width: 991px) {
 
     .contentText, .talentText {
@@ -114,6 +113,7 @@
         width: 100%;
         height: auto;
         box-shadow: 2px 4px 6px #343434;
+        margin-top: 9em;
     }
 
     .card:hover {
@@ -125,4 +125,7 @@
         box-shadow: 3px 6px 8px #343434;
     }
 
+    .risingRoof {
+        margin-top: 8em;
+    }
 }
