@@ -38,28 +38,31 @@ const ZinkWerken = () => {
             </div>
 
             <div className="container">
-                <div className="row">
+                <div className="row my-5">
 
-                    <div className="col-sm-12 col-lg-6 p-5">
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
+                    <div className="col-sm-12 col-xl-6">
+                        <div className="container p-2">
+                            <h2 className="contentTitle text-secondary text-center">DAKWERKEN LAGAERT STEVEN UIT
+                                EVERGEM</h2>
 
-                        <h2 className="text-center p-3">Elegante uitstraling</h2>
+                            <h2 className="contentTitle_2 py-2">Elegante uitstraling</h2>
 
-                        <p className="contentText p-2">Een vakkundig geplaatste dakgoot biedt heel wat
-                            voordelen. Uw dak ziet er niet alleen netjes afgewerkt uit maar u bent ook zeker van een
-                            goede waterafvoer.</p>
+                            <p className="contentText mt-2">Een vakkundig geplaatste dakgoot biedt heel wat
+                                voordelen. Uw dak ziet er niet alleen netjes afgewerkt uit maar u bent ook zeker van een
+                                goede waterafvoer.</p>
 
-                        <p className="contentText p-2">Dakwerken Lagaert Steven regelt die klus dan ook
-                            graag voor u. Steven plaatst dak- en hanggoten bij hellende en platte daken en bekleedt ze
-                            in pvc, hout of Trespa.</p>
-
+                            <p className="contentText">Dakwerken Lagaert Steven regelt die klus dan ook
+                                graag voor u. Steven plaatst dak- en hanggoten bij hellende en platte daken en bekleedt
+                                ze
+                                in pvc, hout of Trespa.</p>
+                        </div>
                     </div>
 
 
-                    <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
-
-                        <img src={zinkhouse} alt="zinkHouse" className="contentImg" width="100%"/>
+                    <div className="col-sm-12 col-xl-6 d-flex justify-content-center">
+                        <div className="container mt-xl-5">
+                            <img src={zinkhouse} alt="zinkHouse" className="contentImg" width="100%"/>
+                        </div>
                     </div>
 
                 </div>
@@ -81,26 +84,28 @@ const ZinkWerken = () => {
             </div>
 
             <div className="container">
-                <div className="row">
+                <div className="row my-5">
 
-                    <div className="col-sm-12 col-lg-6 order-lg-2 p-5">
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
+                    <div className="col-sm-12 col-xl-6 order-xl-2">
+                        <div className="container p-2">
+                            <h2 className="contentTitle text-secondary text-center">DAKWERKEN LAGAERT STEVEN UIT
+                                EVERGEM</h2>
 
-                        <h2 className="text-center p-3">Herstellingen</h2>
+                            <h2 className="contentTitle_2 py-2">Herstellingen</h2>
 
-                        <p className="contentText p-2">Vertoont uw huidige dakgoot scheuren of lekken? Dan
-                            voert Steven de nodige renovaties of herstellingen uit met oog voor detail.</p>
+                            <p className="contentText mt-2">Vertoont uw huidige dakgoot scheuren of lekken? Dan
+                                voert Steven de nodige renovaties of herstellingen uit met oog voor detail.</p>
 
-                        <p className="contentText p-2">Bij Dakwerken Lagaert Steven staat een transparante
-                            communicatie bovendien centraal. Zo bent u zeker van een duidelijke en klantvriendelijke
-                            service.</p>
-
+                            <p className="contentText">Bij Dakwerken Lagaert Steven staat een transparante
+                                communicatie bovendien centraal. Zo bent u zeker van een duidelijke en klantvriendelijke
+                                service.</p>
+                        </div>
                     </div>
 
                     <div className="col-sm-12 col-lg-6 order-lg-1 p-5 d-flex justify-content-center">
-
-                        <img src={zinkHerstel} alt="ZinkHerstel" className="contentImg" width="100%"/>
+                        <div className="container mt-xl-5">
+                            <img src={zinkHerstel} alt="ZinkHerstel" className="contentImg" width="100%"/>
+                        </div>
                     </div>
                 </div>
 

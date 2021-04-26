@@ -125,150 +125,155 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
+
                 <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-lg-6 p-5">
-                            <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                                EVERGEM</h2>
+                    <div className="row my-5">
 
-                            <h2 className="text-center p-3">Onze gegevens</h2>
+                        <div className="col-sm-12 col-xl-6">
+                            <div className="container p-2">
+                                <h2 className="contentTitle text-secondary text-center">DAKWERKEN LAGAERT STEVEN UIT
+                                    EVERGEM</h2>
 
-                            <p className="contentText p-2">Wenst u meer informatie over het dienstenpakket
-                                of
-                                wil u
-                                een offerte
-                                aanvragen?
-                                <br/>
-                                Contacteer Steven dan via onderstaande gegevens of vul het contactformulier
-                                in.</p>
+                                <h2 className="contentTitle_2 py-2">Onze gegevens</h2>
 
-                            <div className="container justify-content-around p-5 ml-3">
+                                <p className="contentText mt-2">Wenst u meer informatie over het dienstenpakket
+                                    of
+                                    wil u
+                                    een offerte
+                                    aanvragen?
+                                    <br/>
+                                    Contacteer Steven dan via onderstaande gegevens of vul het contactformulier
+                                    in.</p>
 
-                                <ul className="list-unstyled p-3">
-                                    <li>
-                                        <a href="https://goo.gl/maps/UhEHFrsD3Eh1ZoR89" target="_blank" rel="noreferrer"
-                                           className="text-decoration-none text-dark">
-                                            <p>
-                                                <i className="fas fa-map-marker-alt text-warning mr-2 mt-2"/>
-                                                Durmestraat 28, 9940 Evergem
-                                            </p>
-                                        </a>
-                                    </li>
+                                <div className="container justify-content-around p-5 ml-3">
 
-                                    <li>
-                                        <a href="tel: 0032497219273" className="text-decoration-none text-dark">
-                                            <p>
-                                                <i className="fas fa-mobile-alt text-warning mr-2"/>
-                                                0497/21.92.73
-                                            </p>
-                                        </a>
-                                    </li>
+                                    <ul className="list-unstyled p-3">
+                                        <li>
+                                            <a href="https://goo.gl/maps/UhEHFrsD3Eh1ZoR89" target="_blank" rel="noreferrer"
+                                               className="text-decoration-none text-dark">
+                                                <p>
+                                                    <i className="fas fa-map-marker-alt text-warning mr-2 mt-2"/>
+                                                    Durmestraat 28, 9940 Evergem
+                                                </p>
+                                            </a>
+                                        </li>
 
-                                    <li>
-                                        <a href="mailto: info@dakwerken-lagaertsteven.be"
-                                           className="text-decoration-none text-dark">
-                                            <p>
-                                                <i className="fas fa-envelope-open text-warning mr-2"/>
-                                                info@dakwerken-lagaertsteven.be
-                                            </p>
-                                        </a>
-                                    </li>
+                                        <li>
+                                            <a href="tel: 0032497219273" className="text-decoration-none text-dark">
+                                                <p>
+                                                    <i className="fas fa-mobile-alt text-warning mr-2"/>
+                                                    0497/21.92.73
+                                                </p>
+                                            </a>
+                                        </li>
 
-                                    <li>
-                                        <p><i className="fas fa-building text-warning mr-2"/>BE 0732.478.078</p>
+                                        <li>
+                                            <a href="mailto: info@dakwerken-lagaertsteven.be"
+                                               className="text-decoration-none text-dark">
+                                                <p>
+                                                    <i className="fas fa-envelope-open text-warning mr-2"/>
+                                                    info@dakwerken-lagaertsteven.be
+                                                </p>
+                                            </a>
+                                        </li>
 
-                                    </li>
-                                </ul>
+                                        <li>
+                                            <p><i className="fas fa-building text-warning mr-2"/>BE 0732.478.078</p>
+
+                                        </li>
+                                    </ul>
 
 
+                                </div>
                             </div>
-                        </div>
+                            </div>
 
 
-                        <div className="col-sm-12 col-lg-6 p-5">
 
-                            <h2 className="text-center p-3">Contactformulier</h2>
+                        <div className="col-sm-12 col-xl-6">
+                            <div className="container p-2">
+                                <h2 className="contentTitle_2 py-2">Contactformulier</h2>
 
-                            <p className="contentText text-center p-2">Stel hieronder uw vraag en Steven helpt u zo snel
-                                mogelijk verder.</p>
+                                <p className="contentText text-center mt-2">Stel hieronder uw vraag en Steven helpt u zo snel
+                                    mogelijk verder.</p>
 
 
-                            <div className="container p-5">
-                                <form name="contactform" onSubmit={this.contactSubmit.bind(this)}>
-                                    <fieldset>
-                                        <ul className="list-unstyled">
-                                            <li>
-                                                <input
-                                                    type="text"
-                                                    required={true}
-                                                    placeholder="Voornaam"
-                                                    className="inputField"
-                                                    ref="firstName"
-                                                    onChange={this.handleChange.bind(this, "firstName")}
-                                                    value={this.state.fields["firstName"]}
-                                                />
+                                <div className="container p-2">
+                                    <form name="contactform" onSubmit={this.contactSubmit.bind(this)}>
+                                        <fieldset>
+                                            <ul className="list-unstyled">
+                                                <li>
+                                                    <input
+                                                        type="text"
+                                                        required={true}
+                                                        placeholder="Voornaam"
+                                                        className="inputField"
+                                                        ref="firstName"
+                                                        onChange={this.handleChange.bind(this, "firstName")}
+                                                        value={this.state.fields["firstName"]}
+                                                    />
 
-                                                <span style={{color: "red"}}>{this.state.errors["firstName"]}</span>
-                                            </li>
+                                                    <span style={{color: "red"}}>{this.state.errors["firstName"]}</span>
+                                                </li>
 
-                                            <li>
-                                                <input
-                                                    type="text"
-                                                    required={true}
-                                                    placeholder="familienaam"
-                                                    className="inputField"
-                                                    ref="lastName"
-                                                    onChange={this.handleChange.bind(this, "lastName")}
-                                                    value={this.state.fields["lastName"]}
-                                                />
+                                                <li>
+                                                    <input
+                                                        type="text"
+                                                        required={true}
+                                                        placeholder="familienaam"
+                                                        className="inputField"
+                                                        ref="lastName"
+                                                        onChange={this.handleChange.bind(this, "lastName")}
+                                                        value={this.state.fields["lastName"]}
+                                                    />
 
-                                                <span style={{color: "red"}}>{this.state.errors["lastName"]}</span>
-                                            </li>
+                                                    <span style={{color: "red"}}>{this.state.errors["lastName"]}</span>
+                                                </li>
 
-                                            <li>
-                                                <input
-                                                    type="text"
-                                                    required={true}
-                                                    placeholder="Adres"
-                                                    className="inputField"
-                                                    ref="Address"
-                                                    onChange={this.handleChange.bind(this, "Address")}
-                                                    value={this.state.fields["Address"]}
-                                                />
+                                                <li>
+                                                    <input
+                                                        type="text"
+                                                        required={true}
+                                                        placeholder="Adres"
+                                                        className="inputField"
+                                                        ref="Address"
+                                                        onChange={this.handleChange.bind(this, "Address")}
+                                                        value={this.state.fields["Address"]}
+                                                    />
 
-                                                <span style={{color: "red"}}>{this.state.errors["Address"]}</span>
-                                            </li>
+                                                    <span style={{color: "red"}}>{this.state.errors["Address"]}</span>
+                                                </li>
 
-                                            <li>
-                                                <input
-                                                    type="text"
-                                                    required={true}
-                                                    placeholder="Telefoon"
-                                                    className="inputField"
-                                                    ref="Tel"
-                                                    onChange={this.handleChange.bind(this, "Tel")}
-                                                    value={this.state.fields["Tel"]}
-                                                />
+                                                <li>
+                                                    <input
+                                                        type="text"
+                                                        required={true}
+                                                        placeholder="Telefoon"
+                                                        className="inputField"
+                                                        ref="Tel"
+                                                        onChange={this.handleChange.bind(this, "Tel")}
+                                                        value={this.state.fields["Tel"]}
+                                                    />
 
-                                                <span style={{color: "red"}}>{this.state.errors["Tel"]}</span>
-                                            </li>
+                                                    <span style={{color: "red"}}>{this.state.errors["Tel"]}</span>
+                                                </li>
 
-                                            <li>
+                                                <li>
 
-                                                <input
-                                                    type="email"
-                                                    required={true}
-                                                    placeholder="Email"
-                                                    className="inputField"
-                                                    ref="Email"
-                                                    onChange={this.handleChange.bind(this, "Email")}
-                                                    value={this.state.fields["Email"]}
-                                                />
+                                                    <input
+                                                        type="email"
+                                                        required={true}
+                                                        placeholder="Email"
+                                                        className="inputField"
+                                                        ref="Email"
+                                                        onChange={this.handleChange.bind(this, "Email")}
+                                                        value={this.state.fields["Email"]}
+                                                    />
 
-                                                <span style={{color: "red"}}>{this.state.errors["Email"]}</span>
-                                            </li>
+                                                    <span style={{color: "red"}}>{this.state.errors["Email"]}</span>
+                                                </li>
 
-                                            <li>
+                                                <li>
                                                 <textarea
                                                     placeholder="Schrijf hier je bericht"
                                                     required={true}
@@ -277,32 +282,35 @@ class Contact extends Component {
                                                     onChange={this.handleChange.bind(this, "Mess")}
                                                     value={this.state.fields["Mess"]}
                                                 />
-                                            </li>
+                                                </li>
 
-                                            <li>
+                                                <li>
 
 
-                                                <div className="container">
-                                                    <input
-                                                        type="checkbox"
-                                                        required={true}
-                                                        className="mr-2"
-                                                    />
-                                                    Ik ga ermee akkoord dat de ingevoerde informatie gebruikt zal worden
-                                                    om
-                                                    contact met mij op te nemen.
-                                                </div>
-                                            </li>
+                                                    <div className="container">
+                                                        <input
+                                                            type="checkbox"
+                                                            required={true}
+                                                            className="mr-2"
+                                                        />
+                                                        Ik ga ermee akkoord dat de ingevoerde informatie gebruikt zal worden
+                                                        om
+                                                        contact met mij op te nemen.
+                                                    </div>
+                                                </li>
 
-                                            <li>
-                                                <div className="d-flex justify-content-center">
-                                                <input type="submit" className="btn btn-outline-dark mt-5 "/>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </fieldset>
-                                </form>
+                                                <li>
+                                                    <div className="d-flex justify-content-center">
+                                                        <input type="submit" className="btn btn-outline-dark mt-5 "/>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </fieldset>
+                                    </form>
+                                </div>
                             </div>
+
+
                         </div>
 
                     </div>

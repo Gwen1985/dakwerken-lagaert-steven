@@ -3,13 +3,14 @@
 }
 
 .contentTitle {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
 .contentTitle_2 {
-    font-size: 2.5em;
+    font-size: 2em;
+    font-weight: bolder;
 }
 
 .contentTitle_3 {
@@ -125,7 +126,7 @@
         box-shadow: 3px 6px 8px #343434;
     }
 
-    .risingRoof {
-        margin-top: 8em;
-    }
+    /*.risingRoof {*/
+    /*    margin-top: 8em;*/
+    /*}*/
 }

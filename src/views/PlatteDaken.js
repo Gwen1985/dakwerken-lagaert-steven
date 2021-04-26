@@ -41,28 +41,30 @@ const PlatteDaken = () => {
             </div>
 
             <div className="container">
-                <div className="row">
+                <div className="row my-5">
 
-                    <div className="col-sm-12 col-lg-6 order-lg-2 p-5">
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
+                    <div className="col-sm-12 col-xl-6 order-xl-2">
+                        <div className="container p-2">
+                            <h2 className="contentTitle text-secondary text-center">DAKWERKEN LAGAERT STEVEN UIT
+                                EVERGEM</h2>
 
-                        <h2 className="text-center p-3">Vermijd schade of lekken</h2>
+                            <h2 className="contentTitle_2 py-2">Vermijd schade of lekken</h2>
 
-                        <p className="contentText p-2">Zoekt u een ervaren dakwerker om uw platte dak te
-                            dichten? Dan kunt u terecht bij Dakwerken Lagaert Steven. Steven gaat aan de slag met
-                            verschillende kwaliteitsmaterialen.</p>
+                            <p className="contentText mt-2">Zoekt u een ervaren dakwerker om uw platte dak te
+                                dichten? Dan kunt u terecht bij Dakwerken Lagaert Steven. Steven gaat aan de slag met
+                                verschillende kwaliteitsmaterialen.</p>
 
-                        <p className="contentText p-2">Zo maakt hij bijvoorbeeld gebruik van roofing en EPDM
-                            van de merken Resitrix en Mastersystems. U bent steeds verzekerd van een naadloze
-                            afwerking.</p>
+                            <p className="contentText">Zo maakt hij bijvoorbeeld gebruik van roofing en EPDM
+                                van de merken Resitrix en Mastersystems. U bent steeds verzekerd van een naadloze
+                                afwerking.</p>
 
+                        </div>
                     </div>
 
-
-                    <div className="col-sm-12 col-lg-6 order-lg-1 p-5 d-flex justify-content-center">
-
-                        <img src={rt} alt="rooof" className="contentImg" width="100%"/>
+                    <div className="col-sm-12 col-xl-6 order-xl-1 d-flex justify-content-center">
+                        <div className="container mt-xl-5">
+                            <img src={rt} alt="rooof" className="contentImg" width="100%"/>
+                        </div>
                     </div>
 
                 </div>
@@ -84,28 +86,30 @@ const PlatteDaken = () => {
             </div>
 
             <div className="container">
-                <div className="row">
+                <div className="row my-5">
 
-                    <div className="col-sm-12 col-lg-6 p-5">
-                        <h2 className="contentTitle text-secondary text-center pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
+                    <div className="col-sm-12 col-xl-6">
+                        <div className="container p-2">
+                            <h2 className="contentTitle text-secondary text-center">DAKWERKEN LAGAERT STEVEN UIT
+                                EVERGEM</h2>
 
-                        <h2 className="text-center p-3">Uitgebreid advies</h2>
+                            <h2 className="contentTitle_2 py-2">Uitgebreid advies</h2>
 
-                        <p className="contentText p-2">Dakwerken Lagaert Steven staat u graag bij met
-                            gericht advies over materialen.</p>
+                            <p className="contentText mt-2">Dakwerken Lagaert Steven staat u graag bij met
+                                gericht advies over materialen.</p>
 
-                        <p className="contentText p-2">Steven komt uw dak inspecteren en bepaalt samen met u
-                            de ideale oplossing op maat van uw woning, achterbouw of garage.</p>
+                            <p className="contentText">Steven komt uw dak inspecteren en bepaalt samen met u
+                                de ideale oplossing op maat van uw woning, achterbouw of garage.</p>
 
-                        <p className="contentText p-2">Dankzij zijn uitgebreide vakkennis bent u zeker van
-                            een lekvrij plat dak, dat jarenlang meegaat.</p>
-
+                            <p className="contentText">Dankzij zijn uitgebreide vakkennis bent u zeker van
+                                een lekvrij plat dak, dat jarenlang meegaat.</p>
+                        </div>
                     </div>
 
-                    <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
-
-                        <img src={platKoepel} alt="dakpanzwart" className="contentImg" width="100%"/>
+                    <div className="col-sm-12 col-xl-6 d-flex justify-content-center">
+                        <div className="container mt-xl-5">
+                            <img src={platKoepel} alt="dakpanzwart" className="contentImg" width="100%"/>
+                        </div>
                     </div>
                 </div>
 
