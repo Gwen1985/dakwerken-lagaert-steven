@@ -8,17 +8,16 @@ const HomeContent = () => {
 
     return (
         <div className="homeContent">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12 col-lg-6 pt-3">
 
-            <div className="row">
+                        <div className="container pt-3">
 
-                <div className="col-sm-12 col-lg-6 pt-3">
+                            <h2 className="contentTitle text-center text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT
+                                EVERGEM</h2>
+                            <h2 className="contentTitle_2 text-center pt-5">Uw dak tot in de puntjes afgewerkt</h2>
 
-                    <div className="container pt-3">
-
-                        <h2 className="contentTitle text-center text-secondary pt-5">DAKWERKEN LAGAERT STEVEN UIT
-                            EVERGEM</h2>
-                        <h2 className="contentTitle_2 text-center pt-5">Uw dak tot in de puntjes afgewerkt</h2>
-                        <div className="container p-5">
                             <p className="contentText">Is uw hellend of plat dak aan vervanging toe?
                                 <br/>
                                 Of
@@ -41,16 +40,15 @@ const HomeContent = () => {
                                 een
                                 goede
                                 prijs-kwaliteit en duurzame eindresultaten.</p>
-                        </div>
 
+                        </div>
+                    </div>
+
+                    <div className="col-sm-12 col-lg-6 p-5 d-flex justify-content-center">
+                        <img src={risingRoof} alt="rooof" className="contentImg risingRoof" width="100%" height="75%"/>
                     </div>
 
                 </div>
-
-                <div className="col-sm-12 col-lg-6 p-5  d-flex justify-content-center">
-                    <img src={risingRoof} alt="rooof" className="contentImg risingRoof" width="100%" height="75%"/>
-                </div>
-
             </div>
 
             <div className="row homeMidImg">
