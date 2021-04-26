@@ -197,7 +197,6 @@ class Contact extends Component {
                                 <p className="contentText text-center mt-2">Stel hieronder uw vraag en Steven helpt u zo snel
                                     mogelijk verder.</p>
 
-
                                 <div className="container p-2">
                                     <form name="contactform" onSubmit={this.contactSubmit.bind(this)}>
                                         <fieldset>

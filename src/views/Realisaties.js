@@ -53,13 +53,13 @@ const Realisaties = () => {
             </div>
 
             <div className="container">
-                <div className="row">
+                <div className="row my-5">
                     <div className="col-12">
 
-                        <div className="container p-5">
-                            <h2 className="text-center">Onovertrefbaar vakmanschap</h2>
+                        <div className="container p-2">
+                            <h2 className="contentTitle_2 ">Onovertrefbaar vakmanschap</h2>
 
-                            <p className="contentText p-5">Bekijk hier de vorige projecten van Dakwerken Lagaert Steven en laat u
+                            <p className="contentText ">Bekijk hier de vorige projecten van Dakwerken Lagaert Steven en laat u
                                 overtuigen door een
                                 ervaren vakmanschap waarbij duurzaamheid centraal staat.</p>
                         </div>
